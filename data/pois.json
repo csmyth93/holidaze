@@ -22,7 +22,7 @@
       "desc": "Elegant Thai cuisine, Michelin starred",
       "address": "27 South Sathorn Road, Tungmahamek, Sathorn, Bangkok 10120",
       "lat": 13.7226,
-      "lng": 100.5290,
+      "lng": 100.529,
       "website": "https://www.comohotels.com/en/metropolitanbangkok/dining/nahm",
       "google_place_id": "ChIJR0lA0yOZ4jARGC5ZKKPVWFE"
     },
@@ -47,7 +47,7 @@
       "type": "Thai",
       "desc": "Thai fine dining in a garden villa",
       "address": "4 Soi Sri Aksorn, Chua Ploeng Road, Sathorn, Bangkok 10120",
-      "lat": 13.7220,
+      "lat": 13.722,
       "lng": 100.5352,
       "website": "https://www.issaya.com/",
       "google_place_id": "ChIJCWJBpyGZ4jARTONa7dyjM7s"
@@ -56,11 +56,11 @@
       "id": "bkk_suhring",
       "hotel_id": "bangkok_salil",
       "category": "dinner",
-      "name": "Sühring",
+      "name": "S\u00fchring",
       "type": "German",
       "desc": "Twin chefs' modern German, 3 Michelin stars",
       "address": "10 Yen Akat Soi 3, Chong Nonsi, Yan Nawa, Bangkok 10120",
-      "lat": 13.7010,
+      "lat": 13.701,
       "lng": 100.5449,
       "website": "https://restaurantsuhring.com/",
       "google_place_id": "ChIJL1LPXRqZ4jARV6HXjqd3bsk"
@@ -123,7 +123,7 @@
       "desc": "Authentic Roman trattoria hidden in Sukhumvit",
       "address": "20/4 Sukhumvit Soi 31, Khlong Toei Nuea, Bangkok 10110",
       "lat": 13.7362,
-      "lng": 100.5680,
+      "lng": 100.568,
       "website": "https://www.google.com/search?q=Appia+Restaurant+Bangkok+Sukhumvit+31"
     },
     {
@@ -134,7 +134,7 @@
       "type": "cultural",
       "desc": "Thailand's most sacred Buddhist temple",
       "address": "Na Phra Lan Road, Phra Nakhon, Bangkok 10200",
-      "lat": 13.7500,
+      "lat": 13.75,
       "lng": 100.4914,
       "google_place_id": "ChIJaU2zx4Cf4jARJiQYgKKGAQQ",
       "website": "https://www.royalgrandpalace.th/"
@@ -174,7 +174,7 @@
       "desc": "Giant reclining Buddha & traditional massage school",
       "address": "2 Sanam Chai Road, Phra Borom Maha Ratchawang, Bangkok 10200",
       "lat": 13.7465,
-      "lng": 100.4930,
+      "lng": 100.493,
       "website": "https://www.watpho.com/"
     },
     {
@@ -207,10 +207,10 @@
       "category": "bar",
       "name": "Octave Rooftop Bar",
       "type": "Rooftop",
-      "desc": "360° views from 45th floor, three-tiered rooftop",
+      "desc": "360\u00b0 views from 45th floor, three-tiered rooftop",
       "address": "Marriott Sukhumvit, 2 Sukhumvit Soi 57, Bangkok 10110",
-      "lat": 13.7260,
-      "lng": 100.5850,
+      "lat": 13.726,
+      "lng": 100.585,
       "website": "https://www.google.com/search?q=Octave+Rooftop+Bar+Bangkok"
     },
     {
@@ -221,8 +221,8 @@
       "type": "Cocktail Bar",
       "desc": "Tropical cocktails in a garden setting",
       "address": "Sukhumvit Soi 11, Bangkok 10110",
-      "lat": 13.7420,
-      "lng": 100.5550,
+      "lat": 13.742,
+      "lng": 100.555,
       "website": "https://www.google.com/search?q=Sugar+Cane+Bar+Bangkok"
     },
     {
@@ -233,8 +233,8 @@
       "type": "Club/Bar",
       "desc": "Underground club with top DJs and craft cocktails",
       "address": "72 Sukhumvit 55 (Thonglor), Bangkok 10110",
-      "lat": 13.7310,
-      "lng": 100.5790,
+      "lat": 13.731,
+      "lng": 100.579,
       "website": "https://www.google.com/search?q=BEAM+Club+Bangkok"
     },
     {
@@ -245,8 +245,8 @@
       "type": "Jazz Bar",
       "desc": "Bangkok's legendary live jazz venue since 1985",
       "address": "469 Phra Sumen Road, Phra Nakhon, Bangkok 10200",
-      "lat": 13.7620,
-      "lng": 100.4980,
+      "lat": 13.762,
+      "lng": 100.498,
       "website": "https://www.google.com/search?q=Brown+Sugar+Jazz+Bangkok"
     },
     {
@@ -269,8 +269,8 @@
       "type": "Thai",
       "desc": "Famous Walking Street Thai restaurant",
       "address": "Walking Street, Koh Lipe, Satun 91000",
-      "lat": 6.4870,
-      "lng": 99.3040,
+      "lat": 6.487,
+      "lng": 99.304,
       "website": "https://www.instagram.com/papayamomkohlipe/"
     },
     {
@@ -304,7 +304,7 @@
       "type": "Thai/Seafood",
       "desc": "Romantic oceanfront at Serendipity Resort",
       "address": "Sunrise Beach, Koh Lipe, Satun 91000",
-      "lat": 6.4920,
+      "lat": 6.492,
       "lng": 99.3082,
       "website": "https://www.google.com/search?q=On+The+Rocks+Serendipity+Resort+Koh+Lipe"
     },
@@ -373,8 +373,8 @@
       "type": "12-30m",
       "desc": "Pinnacle with leopard sharks, barracuda & large pelagics",
       "address": "8 nautical miles south of Koh Lipe, Andaman Sea",
-      "lat": 6.3450,
-      "lng": 99.3100
+      "lat": 6.345,
+      "lng": 99.31
     },
     {
       "id": "lipe_stonehenge",
@@ -395,8 +395,8 @@
       "type": "5-18m",
       "desc": "Easy reef dive, great for beginners, turtles common",
       "address": "Koh Adang Island, Tarutao National Marine Park",
-      "lat": 6.5350,
-      "lng": 99.2780
+      "lat": 6.535,
+      "lng": 99.278
     },
     {
       "id": "lipe_yonghua",
@@ -406,8 +406,8 @@
       "type": "28-42m",
       "desc": "Advanced dive, cargo ship with resident groupers",
       "address": "Southwest of Koh Lipe, Andaman Sea",
-      "lat": 6.4420,
-      "lng": 99.2520
+      "lat": 6.442,
+      "lng": 99.252
     },
     {
       "id": "lipe_sunrise",
@@ -417,7 +417,7 @@
       "type": "beach",
       "desc": "Best beach for sunrise views & swimming",
       "address": "East coast, Koh Lipe, Satun 91000",
-      "lat": 6.4930,
+      "lat": 6.493,
       "lng": 99.3089,
       "website": "https://www.google.com/maps/search/Sunrise+Beach+Koh+Lipe"
     },
@@ -429,8 +429,8 @@
       "type": "nightlife",
       "desc": "Beach bars, restaurants & night market",
       "address": "Walking Street, Koh Lipe, Satun 91000",
-      "lat": 6.4870,
-      "lng": 99.3040,
+      "lat": 6.487,
+      "lng": 99.304,
       "website": "https://www.google.com/maps/search/Walking+Street+Koh+Lipe"
     },
     {
@@ -453,8 +453,8 @@
       "type": "nature",
       "desc": "Hike on Koh Adang for panoramic views",
       "address": "Koh Adang, Tarutao National Marine Park",
-      "lat": 6.5380,
-      "lng": 99.2820,
+      "lat": 6.538,
+      "lng": 99.282,
       "website": "https://www.google.com/maps/search/Chado+Cliff+Koh+Adang"
     },
     {
@@ -465,8 +465,8 @@
       "type": "beach",
       "desc": "Main beach with ferry pier & cafes",
       "address": "South coast, Koh Lipe, Satun 91000",
-      "lat": 6.4830,
-      "lng": 99.2990,
+      "lat": 6.483,
+      "lng": 99.299,
       "website": "https://www.google.com/maps/search/Pattaya+Beach+Koh+Lipe"
     },
     {
@@ -548,8 +548,8 @@
       "type": "Thai/Seafood",
       "desc": "Fresh seafood by the beach",
       "address": "Haad Lang Khao, Koh Libong, Trang 92110",
-      "lat": 7.2320,
-      "lng": 99.3680
+      "lat": 7.232,
+      "lng": 99.368
     },
     {
       "id": "libong_andalay",
@@ -559,7 +559,7 @@
       "type": "Thai",
       "desc": "Relaxed beachfront dining",
       "address": "Koh Libong, Kantang, Trang 92110",
-      "lat": 7.2300,
+      "lat": 7.23,
       "lng": 99.3695
     },
     {
@@ -570,8 +570,8 @@
       "type": "Thai/Seafood",
       "desc": "Dine over the water watching fish below",
       "address": "Batu Bute Pier, Koh Libong, Trang 92110",
-      "lat": 7.2150,
-      "lng": 99.4050
+      "lat": 7.215,
+      "lng": 99.405
     },
     {
       "id": "libong_starcoffee",
@@ -581,8 +581,8 @@
       "type": "Thai/Western",
       "desc": "Local favorite run by helpful owner",
       "address": "Main road, Koh Libong, Trang 92110",
-      "lat": 7.2200,
-      "lng": 99.3850
+      "lat": 7.22,
+      "lng": 99.385
     },
     {
       "id": "libong_streetfood",
@@ -592,8 +592,8 @@
       "type": "Thai",
       "desc": "Fried chicken, noodles & sticky rice",
       "address": "Near school, Koh Libong, Trang 92110",
-      "lat": 7.2180,
-      "lng": 99.3900
+      "lat": 7.218,
+      "lng": 99.39
     },
     {
       "id": "libong_starcoffee_lunch",
@@ -603,8 +603,8 @@
       "type": "Cafe",
       "desc": "Coffee, smoothies & light meals",
       "address": "Main road, Koh Libong, Trang 92110",
-      "lat": 7.2200,
-      "lng": 99.3850
+      "lat": 7.22,
+      "lng": 99.385
     },
     {
       "id": "libong_muslim_rest",
@@ -615,7 +615,7 @@
       "desc": "Authentic halal Thai food in the fishing village",
       "address": "Batu Bute Village, Koh Libong, Trang 92110",
       "lat": 7.2155,
-      "lng": 99.4040
+      "lng": 99.404
     },
     {
       "id": "libong_riverside",
@@ -626,7 +626,7 @@
       "desc": "Boat noodles & Thai classics by the water",
       "address": "Near pier, Koh Libong, Trang 92110",
       "lat": 7.2165,
-      "lng": 99.4020
+      "lng": 99.402
     },
     {
       "id": "libong_mango",
@@ -636,8 +636,8 @@
       "type": "Cafe",
       "desc": "Fresh fruit shakes & simple Thai dishes",
       "address": "Main road, Koh Libong, Trang 92110",
-      "lat": 7.2210,
-      "lng": 99.3870
+      "lat": 7.221,
+      "lng": 99.387
     },
     {
       "id": "libong_dugong_watch",
@@ -647,8 +647,8 @@
       "type": "wildlife",
       "desc": "See rare sea cows in their natural habitat",
       "address": "Seagrass beds, East coast Koh Libong",
-      "lat": 7.2050,
-      "lng": 99.4200,
+      "lat": 7.205,
+      "lng": 99.42,
       "website": "https://www.google.com/maps/search/Dugong+Watching+Koh+Libong"
     },
     {
@@ -659,8 +659,8 @@
       "type": "nature",
       "desc": "Natural rock formation with tunnel to sea",
       "address": "West coast, Koh Libong, Trang 92110",
-      "lat": 7.2450,
-      "lng": 99.3500,
+      "lat": 7.245,
+      "lng": 99.35,
       "website": "https://www.google.com/maps/search/Stone+Bridge+Koh+Libong"
     },
     {
@@ -671,8 +671,8 @@
       "type": "cultural",
       "desc": "Colorful fishing village with stilt houses",
       "address": "Batu Bute, Koh Libong, Trang 92110",
-      "lat": 7.2150,
-      "lng": 99.4050,
+      "lat": 7.215,
+      "lng": 99.405,
       "website": "https://www.google.com/maps/search/Batu+Bute+Village+Koh+Libong"
     },
     {
@@ -683,8 +683,8 @@
       "type": "beach",
       "desc": "Main swimming beach with calm waters",
       "address": "West coast, Koh Libong, Trang 92110",
-      "lat": 7.2300,
-      "lng": 99.3650,
+      "lat": 7.23,
+      "lng": 99.365,
       "website": "https://www.google.com/maps/search/Haad+Lang+Khao+Beach+Koh+Libong"
     },
     {
@@ -695,8 +695,8 @@
       "type": "wildlife",
       "desc": "5-story tower at end of Leekpai Pier",
       "address": "Leekpai Pier, Koh Libong, Trang 92110",
-      "lat": 7.2100,
-      "lng": 99.4100,
+      "lat": 7.21,
+      "lng": 99.41,
       "website": "https://www.google.com/maps/search/Dugong+Spotting+Tower+Koh+Libong"
     },
     {
@@ -731,7 +731,7 @@
       "desc": "Upscale resort dining",
       "address": "Sevenseas Resort, Koh Kradan, Trang 92110",
       "lat": 7.3098,
-      "lng": 99.2510
+      "lng": 99.251
     },
     {
       "id": "kradan_mali",
@@ -741,8 +741,8 @@
       "type": "Western",
       "desc": "Best burgers & pizza on the island",
       "address": "Mali Resort, Koh Kradan, Trang 92110",
-      "lat": 7.3120,
-      "lng": 99.2530
+      "lat": 7.312,
+      "lng": 99.253
     },
     {
       "id": "kradan_kalume",
@@ -752,8 +752,8 @@
       "type": "Italian",
       "desc": "Outstanding Italian with ocean views",
       "address": "Koh Kradan, Trang 92110",
-      "lat": 7.3080,
-      "lng": 99.2520
+      "lat": 7.308,
+      "lng": 99.252
     },
     {
       "id": "kradan_reef",
@@ -763,8 +763,8 @@
       "type": "Thai/Western",
       "desc": "Beachfront dining under the stars",
       "address": "Reef Resort, Koh Kradan, Trang 92110",
-      "lat": 7.3150,
-      "lng": 99.2560,
+      "lat": 7.315,
+      "lng": 99.256,
       "website": "https://www.reefresortkradan.com/"
     },
     {
@@ -775,8 +775,8 @@
       "type": "Thai",
       "desc": "Budget-friendly Thai classics",
       "address": "National Park area, Koh Kradan, Trang 92110",
-      "lat": 7.3160,
-      "lng": 99.2570
+      "lat": 7.316,
+      "lng": 99.257
     },
     {
       "id": "kradan_beachbar",
@@ -787,7 +787,7 @@
       "desc": "Smoothies & snacks on the sand",
       "address": "Paradise Beach, Koh Kradan, Trang 92110",
       "lat": 7.3145,
-      "lng": 99.2550
+      "lng": 99.255
     },
     {
       "id": "kradan_castaway",
@@ -797,7 +797,7 @@
       "type": "Thai/Western",
       "desc": "Relaxed beachfront cafe with Thai & Western bites",
       "address": "North Paradise Beach, Koh Kradan, Trang 92110",
-      "lat": 7.3180,
+      "lat": 7.318,
       "lng": 99.2575
     },
     {
@@ -808,8 +808,8 @@
       "type": "Cafe",
       "desc": "Coffee & breakfast with morning sea views",
       "address": "East side, Koh Kradan, Trang 92110",
-      "lat": 7.3110,
-      "lng": 99.2580
+      "lat": 7.311,
+      "lng": 99.258
     },
     {
       "id": "kradan_kokonut",
@@ -831,7 +831,7 @@
       "desc": "Staghorn corals, reef fish, octopus - snorkel from beach",
       "address": "North Paradise Beach, Koh Kradan",
       "lat": 7.3195,
-      "lng": 99.2580
+      "lng": 99.258
     },
     {
       "id": "kradan_kohrok",
@@ -841,8 +841,8 @@
       "type": "5-25m",
       "desc": "Pristine reefs, manta rays, whale sharks in season",
       "address": "Koh Rok Nai & Koh Rok Nok, Mu Ko Lanta National Park",
-      "lat": 7.2080,
-      "lng": 99.0580
+      "lat": 7.208,
+      "lng": 99.058
     },
     {
       "id": "kradan_emerald",
@@ -853,7 +853,7 @@
       "desc": "Swim through dark cave to hidden lagoon",
       "address": "West coast, Koh Mook, Trang Province",
       "lat": 7.3695,
-      "lng": 99.2920,
+      "lng": 99.292,
       "website": "https://www.google.com/maps/search/Emerald+Cave+Tham+Morakot+Koh+Mook"
     },
     {
@@ -864,8 +864,8 @@
       "type": "beach",
       "desc": "1.5km of pristine white sand",
       "address": "East coast, Koh Kradan, Trang 92110",
-      "lat": 7.3140,
-      "lng": 99.2550,
+      "lat": 7.314,
+      "lng": 99.255,
       "website": "https://www.google.com/maps/search/Paradise+Beach+Koh+Kradan"
     },
     {
@@ -876,8 +876,8 @@
       "type": "beach",
       "desc": "Secluded cove with best snorkeling",
       "address": "South Koh Kradan, Trang 92110",
-      "lat": 7.3050,
-      "lng": 99.2480,
+      "lat": 7.305,
+      "lng": 99.248,
       "website": "https://www.google.com/maps/search/Ao+Niang+Beach+Koh+Kradan"
     },
     {
@@ -888,8 +888,8 @@
       "type": "nature",
       "desc": "Trail through jungle to hidden beaches",
       "address": "Central Koh Kradan, Trang 92110",
-      "lat": 7.3100,
-      "lng": 99.2500,
+      "lat": 7.31,
+      "lng": 99.25,
       "website": "https://www.google.com/maps/search/Koh+Kradan+Jungle+Trek"
     },
     {
@@ -913,7 +913,7 @@
       "desc": "Upscale resort bar with sunset views",
       "address": "Sevenseas Resort, Koh Kradan, Trang 92110",
       "lat": 7.3098,
-      "lng": 99.2510,
+      "lng": 99.251,
       "website": "https://www.google.com/search?q=Sevenseas+Resort+Koh+Kradan"
     },
     {
@@ -924,8 +924,8 @@
       "type": "Beach Bar",
       "desc": "Relaxed beachfront drinks under the stars",
       "address": "Reef Resort, Koh Kradan, Trang 92110",
-      "lat": 7.3150,
-      "lng": 99.2560,
+      "lat": 7.315,
+      "lng": 99.256,
       "website": "https://www.reefresortkradan.com/"
     },
     {
@@ -948,8 +948,8 @@
       "type": "Seafood",
       "desc": "Fresh seafood with island views",
       "address": "Long Beach, Koh Lanta 81150",
-      "lat": 7.5810,
-      "lng": 99.0310,
+      "lat": 7.581,
+      "lng": 99.031,
       "website": "https://www.google.com/search?q=Red+Snapper+Restaurant+Koh+Lanta"
     },
     {
@@ -960,8 +960,8 @@
       "type": "Thai",
       "desc": "Famous family-run spot, amazing wings",
       "address": "Main road, Koh Lanta 81150",
-      "lat": 7.5600,
-      "lng": 99.0420
+      "lat": 7.56,
+      "lng": 99.042
     },
     {
       "id": "lanta_whereelse",
@@ -971,8 +971,8 @@
       "type": "Thai/Western",
       "desc": "Treehouse dining with hammocks",
       "address": "Klong Dao, Koh Lanta 81150",
-      "lat": 7.6350,
-      "lng": 99.0330
+      "lat": 7.635,
+      "lng": 99.033
     },
     {
       "id": "lanta_funkyfish",
@@ -982,8 +982,8 @@
       "type": "Seafood",
       "desc": "Beachfront with live reggae music",
       "address": "Long Beach, Koh Lanta 81150",
-      "lat": 7.5750,
-      "lng": 99.0300
+      "lat": 7.575,
+      "lng": 99.03
     },
     {
       "id": "lanta_drunkensailors",
@@ -994,7 +994,7 @@
       "desc": "Best coffee on the island",
       "address": "116 Moo 5, Kantiang Bay, Koh Lanta 81150",
       "lat": 7.4912,
-      "lng": 99.0340
+      "lng": 99.034
     },
     {
       "id": "lanta_kinburger",
@@ -1004,7 +1004,7 @@
       "type": "Western",
       "desc": "Great burgers at local prices",
       "address": "Long Beach, Koh Lanta 81150",
-      "lat": 7.5800,
+      "lat": 7.58,
       "lng": 99.0315,
       "website": "https://www.instagram.com/kinburgerlanta/"
     },
@@ -1016,7 +1016,7 @@
       "type": "Thai/Western",
       "desc": "Beachfront cafe with sunset views",
       "address": "Long Beach, Koh Lanta 81150",
-      "lat": 7.5780,
+      "lat": 7.578,
       "lng": 99.0295
     },
     {
@@ -1027,8 +1027,8 @@
       "type": "Street Food",
       "desc": "Authentic Thai street food stalls",
       "address": "Saladan, Koh Lanta 81150",
-      "lat": 7.6480,
-      "lng": 99.0400
+      "lat": 7.648,
+      "lng": 99.04
     },
     {
       "id": "lanta_tamarind",
@@ -1038,8 +1038,8 @@
       "type": "Thai",
       "desc": "Excellent papaya salad & green curry",
       "address": "Long Beach, Koh Lanta 81150",
-      "lat": 7.5820,
-      "lng": 99.0320
+      "lat": 7.582,
+      "lng": 99.032
     },
     {
       "id": "lanta_oldtown",
@@ -1049,7 +1049,7 @@
       "type": "cultural",
       "desc": "Historic sea gypsy stilt houses & cafes",
       "address": "Old Town, East coast, Koh Lanta 81150",
-      "lat": 7.5330,
+      "lat": 7.533,
       "lng": 99.0865,
       "website": "https://www.google.com/maps/search/Old+Town+Lanta+Koh+Lanta"
     },
@@ -1061,7 +1061,7 @@
       "type": "nature",
       "desc": "Lighthouse, beaches & jungle trails",
       "address": "Southern tip, Koh Lanta 81150",
-      "lat": 7.4700,
+      "lat": 7.47,
       "lng": 99.0985,
       "website": "https://www.thainationalparks.com/mu-ko-lanta-national-park"
     },
@@ -1073,8 +1073,8 @@
       "type": "beach",
       "desc": "Main beach strip with bars & restaurants",
       "address": "Long Beach, Koh Lanta 81150",
-      "lat": 7.5750,
-      "lng": 99.0280,
+      "lat": 7.575,
+      "lng": 99.028,
       "website": "https://www.google.com/maps/search/Long+Beach+Phra+Ae+Koh+Lanta"
     },
     {
@@ -1085,8 +1085,8 @@
       "type": "beach",
       "desc": "Stunning secluded bay with calm waters",
       "address": "Kantiang Bay, Koh Lanta 81150",
-      "lat": 7.4920,
-      "lng": 99.0310,
+      "lat": 7.492,
+      "lng": 99.031,
       "website": "https://www.google.com/maps/search/Kantiang+Bay+Koh+Lanta"
     },
     {
@@ -1097,8 +1097,8 @@
       "type": "nature",
       "desc": "Explore stalactite caves in the jungle",
       "address": "Central Koh Lanta 81150",
-      "lat": 7.5200,
-      "lng": 99.0600,
+      "lat": 7.52,
+      "lng": 99.06,
       "website": "https://www.google.com/maps/search/Khao+Mai+Kaew+Caves+Koh+Lanta"
     },
     {
@@ -1109,8 +1109,8 @@
       "type": "5-30m",
       "desc": "Cathedral cave, pristine corals, seahorses & ghost pipefish",
       "address": "Koh Haa Islands, 16km west of Koh Lanta",
-      "lat": 7.4290,
-      "lng": 98.8970
+      "lat": 7.429,
+      "lng": 98.897
     },
     {
       "id": "lanta_bidanok",
@@ -1132,7 +1132,7 @@
       "desc": "Red rock, manta rays, whale sharks, world-class site",
       "address": "55km south of Koh Lanta, Andaman Sea",
       "lat": 7.1461,
-      "lng": 98.8240
+      "lng": 98.824
     },
     {
       "id": "lanta_hinmuang",
@@ -1153,7 +1153,7 @@
       "type": "Beach Bar",
       "desc": "Best sunset spot with live reggae and fire shows",
       "address": "Long Beach, Koh Lanta 81150",
-      "lat": 7.5780,
+      "lat": 7.578,
       "lng": 99.0285,
       "website": "https://www.google.com/search?q=Pangea+Beach+Bar+Koh+Lanta"
     },
@@ -1165,8 +1165,8 @@
       "type": "Beach Bar",
       "desc": "Bohemian beachfront bar with hookah and cocktails",
       "address": "Long Beach, Koh Lanta 81150",
-      "lat": 7.5760,
-      "lng": 99.0290,
+      "lat": 7.576,
+      "lng": 99.029,
       "website": "https://www.google.com/search?q=Opium+Bar+Koh+Lanta"
     },
     {
@@ -1177,7 +1177,7 @@
       "type": "Pub",
       "desc": "Proper pub with pool tables, sports TV, and Guinness",
       "address": "Saladan, Koh Lanta 81150",
-      "lat": 7.6470,
+      "lat": 7.647,
       "lng": 99.0395,
       "website": "https://www.google.com/search?q=Irish+Embassy+Koh+Lanta"
     },
@@ -1201,8 +1201,8 @@
       "type": "Beach Bar",
       "desc": "Rasta vibes, cheap buckets, beach bonfire nights",
       "address": "Long Beach, Koh Lanta 81150",
-      "lat": 7.5800,
-      "lng": 99.0280,
+      "lat": 7.58,
+      "lng": 99.028,
       "website": "https://www.google.com/search?q=Freedom+Bar+Koh+Lanta"
     },
     {
@@ -1261,7 +1261,7 @@
       "type": "Thai",
       "desc": "Eastern Thai cuisine by the river",
       "address": "392/25-26 Maharat Road, Bangkok 10200",
-      "lat": 13.7460,
+      "lat": 13.746,
       "lng": 100.4925,
       "website": "https://www.supannigaeatingroom.com/"
     },
@@ -1296,7 +1296,7 @@
       "desc": "Famous flower market with food stalls",
       "address": "Chakphet Road, Phra Nakhon, Bangkok 10200",
       "lat": 13.7405,
-      "lng": 100.4970
+      "lng": 100.497
     },
     {
       "id": "bkk2_thaprachan",
@@ -1317,8 +1317,8 @@
       "type": "Cafe",
       "desc": "Instagrammable blue lattes in old town",
       "address": "392/37 Maharat Road, Bangkok 10200",
-      "lat": 13.7470,
-      "lng": 100.4920,
+      "lat": 13.747,
+      "lng": 100.492,
       "website": "https://www.instagram.com/bluewhalebkk/"
     },
     {
@@ -1353,8 +1353,8 @@
       "type": "activity",
       "desc": "Night market & entertainment complex",
       "address": "2194 Charoen Krung Road, Wat Phraya Krai, Bang Kho Laem, Bangkok 10120",
-      "lat": 13.7050,
-      "lng": 100.5010,
+      "lat": 13.705,
+      "lng": 100.501,
       "website": "https://www.asiatiquethailand.com/"
     },
     {
@@ -1366,7 +1366,7 @@
       "desc": "Giant reclining Buddha & massage school",
       "address": "2 Sanam Chai Road, Phra Nakhon, Bangkok 10200",
       "lat": 13.7465,
-      "lng": 100.4930,
+      "lng": 100.493,
       "website": "https://www.watpho.com/"
     },
     {
@@ -1377,8 +1377,8 @@
       "type": "activity",
       "desc": "Evening dinner cruise past lit temples",
       "address": "Various piers, Chao Phraya River, Bangkok",
-      "lat": 13.7400,
-      "lng": 100.5000,
+      "lat": 13.74,
+      "lng": 100.5,
       "website": "https://www.google.com/maps/search/Chao+Phraya+River+Cruise+Bangkok"
     },
     {
@@ -1425,8 +1425,8 @@
       "type": "Tiki Bar",
       "desc": "Tropical tiki cocktails in Chinatown alley",
       "address": "Soi Nana, Charoen Krung, Bangkok 10100",
-      "lat": 13.7390,
-      "lng": 100.5100,
+      "lat": 13.739,
+      "lng": 100.51,
       "website": "https://www.google.com/search?q=Tropic+City+Bar+Bangkok"
     },
     {
@@ -1440,6 +1440,906 @@
       "lat": 13.7388,
       "lng": 100.5092,
       "website": "https://www.google.com/search?q=AMA+Wine+Bar+Bangkok"
+    },
+    {
+      "id": "bkk_le_du",
+      "hotel_id": "bangkok_salil",
+      "category": "dinner",
+      "name": "Le Du",
+      "type": "Thai",
+      "desc": "Modern Thai tasting menus, 2 Michelin stars",
+      "lat": 13.7245,
+      "lng": 100.5298
+    },
+    {
+      "id": "bkk_paste",
+      "hotel_id": "bangkok_salil",
+      "category": "dinner",
+      "name": "Paste Bangkok",
+      "type": "Thai",
+      "desc": "Royal Thai cuisine revived, Michelin starred",
+      "lat": 13.7438,
+      "lng": 100.5468
+    },
+    {
+      "id": "bkk_sorn",
+      "hotel_id": "bangkok_salil",
+      "category": "dinner",
+      "name": "Sorn",
+      "type": "Thai",
+      "desc": "Southern Thai fine dining, 2 Michelin stars",
+      "lat": 13.7182,
+      "lng": 100.5712
+    },
+    {
+      "id": "bkk_canvas",
+      "hotel_id": "bangkok_salil",
+      "category": "dinner",
+      "name": "Canvas",
+      "type": "European",
+      "desc": "Creative European with Thai influences",
+      "lat": 13.7298,
+      "lng": 100.5815
+    },
+    {
+      "id": "bkk_saawaan",
+      "hotel_id": "bangkok_salil",
+      "category": "dinner",
+      "name": "Saawaan",
+      "type": "Thai",
+      "desc": "Sustainable Thai gastronomy, Michelin starred",
+      "lat": 13.7165,
+      "lng": 100.5385
+    },
+    {
+      "id": "bkk_peep",
+      "hotel_id": "bangkok_salil",
+      "category": "lunch",
+      "name": "Phed Phed",
+      "type": "Thai",
+      "desc": "Spicy northeastern Thai, legendary duck larb",
+      "lat": 13.7412,
+      "lng": 100.5623
+    },
+    {
+      "id": "bkk_soulgreen",
+      "hotel_id": "bangkok_salil",
+      "category": "lunch",
+      "name": "Soul Green",
+      "type": "Healthy",
+      "desc": "Organic bowls & smoothies in Thonglor",
+      "lat": 13.7285,
+      "lng": 100.5842
+    },
+    {
+      "id": "bkk_raan",
+      "hotel_id": "bangkok_salil",
+      "category": "lunch",
+      "name": "Raan Jay Fai",
+      "type": "Thai",
+      "desc": "No-frills legendary crab curry spot",
+      "lat": 13.754,
+      "lng": 100.506
+    },
+    {
+      "id": "bkk_roast",
+      "hotel_id": "bangkok_salil",
+      "category": "lunch",
+      "name": "Roast Coffee",
+      "type": "Cafe",
+      "desc": "Specialty coffee & brunch in Thonglor",
+      "lat": 13.7302,
+      "lng": 100.5798
+    },
+    {
+      "id": "bkk_mikkeller",
+      "hotel_id": "bangkok_salil",
+      "category": "lunch",
+      "name": "Mikkeller Bangkok",
+      "type": "Western",
+      "desc": "Craft beer bar with great food",
+      "lat": 13.7395,
+      "lng": 100.5565
+    },
+    {
+      "id": "bkk_lumpini",
+      "hotel_id": "bangkok_salil",
+      "category": "attraction",
+      "name": "Lumpini Park",
+      "type": "nature",
+      "desc": "City's green lung with monitor lizards",
+      "lat": 13.7308,
+      "lng": 100.5418
+    },
+    {
+      "id": "bkk_artbox",
+      "hotel_id": "bangkok_salil",
+      "category": "attraction",
+      "name": "Artbox Night Market",
+      "type": "nightlife",
+      "desc": "Trendy container market with live music",
+      "lat": 13.7465,
+      "lng": 100.5612
+    },
+    {
+      "id": "bkk_emquartier",
+      "hotel_id": "bangkok_salil",
+      "category": "attraction",
+      "name": "EmQuartier Mall",
+      "type": "activity",
+      "desc": "Luxury mall with rooftop garden",
+      "lat": 13.7312,
+      "lng": 100.5695
+    },
+    {
+      "id": "bkk_mahanakhon",
+      "hotel_id": "bangkok_salil",
+      "category": "attraction",
+      "name": "Mahanakhon SkyWalk",
+      "type": "activity",
+      "desc": "Glass floor observation deck at 314m",
+      "lat": 13.7235,
+      "lng": 100.529
+    },
+    {
+      "id": "bkk_benjakitti",
+      "hotel_id": "bangkok_salil",
+      "category": "attraction",
+      "name": "Benjakitti Park",
+      "type": "nature",
+      "desc": "Lakeside park with elevated skywalk",
+      "lat": 13.7225,
+      "lng": 100.56
+    },
+    {
+      "id": "lipe_monkey",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "dinner",
+      "name": "Monkey Bar & Restaurant",
+      "type": "Thai/Western",
+      "desc": "Lively beachfront spot with Thai & pizza",
+      "lat": 6.4875,
+      "lng": 99.3035
+    },
+    {
+      "id": "lipe_nees",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "dinner",
+      "name": "Nee's Kitchen",
+      "type": "Thai",
+      "desc": "Authentic home-style Thai cooking",
+      "lat": 6.4862,
+      "lng": 99.3048
+    },
+    {
+      "id": "lipe_daya",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "dinner",
+      "name": "Daya Resort Restaurant",
+      "type": "Thai/Seafood",
+      "desc": "Romantic dining on Sunrise Beach",
+      "lat": 6.4925,
+      "lng": 99.3085
+    },
+    {
+      "id": "lipe_cafe_lipe",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "dinner",
+      "name": "Cafe Lipe",
+      "type": "International",
+      "desc": "European-run cafe with diverse menu",
+      "lat": 6.4868,
+      "lng": 99.3042
+    },
+    {
+      "id": "lipe_bloom",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "dinner",
+      "name": "Bloom Cafe",
+      "type": "Thai/Western",
+      "desc": "Garden setting with excellent cocktails",
+      "lat": 6.4858,
+      "lng": 99.305
+    },
+    {
+      "id": "lipe_art",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "lunch",
+      "name": "Art Gallery Cafe",
+      "type": "Cafe",
+      "desc": "Coffee & light bites with local art",
+      "lat": 6.487,
+      "lng": 99.3038
+    },
+    {
+      "id": "lipe_salisa",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "lunch",
+      "name": "Salisa Resort Cafe",
+      "type": "Thai",
+      "desc": "Beach cafe with great pad thai",
+      "lat": 6.4922,
+      "lng": 99.308
+    },
+    {
+      "id": "lipe_coffee",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "lunch",
+      "name": "Coffee Corner",
+      "type": "Cafe",
+      "desc": "Best espresso on the island",
+      "lat": 6.4865,
+      "lng": 99.3045
+    },
+    {
+      "id": "lipe_papaya_lunch",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "lunch",
+      "name": "Papaya Salad House",
+      "type": "Isaan",
+      "desc": "Fiery som tam & grilled chicken",
+      "lat": 6.4873,
+      "lng": 99.3032
+    },
+    {
+      "id": "lipe_chill",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "lunch",
+      "name": "Chill Out Bar",
+      "type": "Thai/Western",
+      "desc": "Relaxed beach shack with cold beers",
+      "lat": 6.484,
+      "lng": 99.2995
+    },
+    {
+      "id": "lipe_snorkel_tour",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "attraction",
+      "name": "4 Islands Snorkel Tour",
+      "type": "activity",
+      "desc": "Day trip to Koh Adang, Rawi, Jabang & Hin Ngam",
+      "lat": 6.487,
+      "lng": 99.304
+    },
+    {
+      "id": "lipe_kayak",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "attraction",
+      "name": "Kayak to Koh Adang",
+      "type": "activity",
+      "desc": "Paddle to neighboring island's beaches",
+      "lat": 6.51,
+      "lng": 99.285
+    },
+    {
+      "id": "lipe_yoga",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "attraction",
+      "name": "Beach Yoga Classes",
+      "type": "activity",
+      "desc": "Morning yoga sessions on Sunrise Beach",
+      "lat": 6.4915,
+      "lng": 99.3075
+    },
+    {
+      "id": "lipe_tarutao",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "attraction",
+      "name": "Tarutao Island Day Trip",
+      "type": "nature",
+      "desc": "Explore jungle trails & WWII history",
+      "lat": 6.65,
+      "lng": 99.65
+    },
+    {
+      "id": "lipe_fishing",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "attraction",
+      "name": "Sunset Fishing Trip",
+      "type": "activity",
+      "desc": "Traditional fishing with local boat",
+      "lat": 6.485,
+      "lng": 99.298
+    },
+    {
+      "id": "libong_sunset",
+      "hotel_id": "koh_libong_dugong",
+      "category": "dinner",
+      "name": "Sunset View Restaurant",
+      "type": "Thai/Seafood",
+      "desc": "Fresh catches with golden hour views",
+      "lat": 7.228,
+      "lng": 99.366
+    },
+    {
+      "id": "libong_crab",
+      "hotel_id": "koh_libong_dugong",
+      "category": "dinner",
+      "name": "Blue Crab Kitchen",
+      "type": "Seafood",
+      "desc": "Famous for soft-shell crab dishes",
+      "lat": 7.219,
+      "lng": 99.388
+    },
+    {
+      "id": "libong_family",
+      "hotel_id": "koh_libong_dugong",
+      "category": "dinner",
+      "name": "Family Home Restaurant",
+      "type": "Thai",
+      "desc": "Home cooking by welcoming local family",
+      "lat": 7.2205,
+      "lng": 99.382
+    },
+    {
+      "id": "libong_fisherman",
+      "hotel_id": "koh_libong_dugong",
+      "category": "dinner",
+      "name": "Fisherman's Hut",
+      "type": "Thai/Seafood",
+      "desc": "Simple seafood shack on the beach",
+      "lat": 7.231,
+      "lng": 99.369
+    },
+    {
+      "id": "libong_papaya",
+      "hotel_id": "koh_libong_dugong",
+      "category": "dinner",
+      "name": "Papaya Garden",
+      "type": "Thai",
+      "desc": "Garden restaurant with local produce",
+      "lat": 7.2175,
+      "lng": 99.3925
+    },
+    {
+      "id": "libong_beach_shack",
+      "hotel_id": "koh_libong_dugong",
+      "category": "lunch",
+      "name": "Beach Shack",
+      "type": "Thai",
+      "desc": "Basic but tasty beachfront bites",
+      "lat": 7.2295,
+      "lng": 99.3675
+    },
+    {
+      "id": "libong_ice_cream",
+      "hotel_id": "koh_libong_dugong",
+      "category": "lunch",
+      "name": "Coconut Ice Cream Stand",
+      "type": "Dessert",
+      "desc": "Fresh coconut ice cream & fruit shakes",
+      "lat": 7.2185,
+      "lng": 99.386
+    },
+    {
+      "id": "libong_mangrove",
+      "hotel_id": "koh_libong_dugong",
+      "category": "attraction",
+      "name": "Mangrove Forest Trail",
+      "type": "nature",
+      "desc": "Boardwalk through lush mangroves",
+      "lat": 7.24,
+      "lng": 99.355
+    },
+    {
+      "id": "libong_rubber",
+      "hotel_id": "koh_libong_dugong",
+      "category": "attraction",
+      "name": "Rubber Plantation Tour",
+      "type": "cultural",
+      "desc": "See traditional rubber tapping",
+      "lat": 7.225,
+      "lng": 99.375
+    },
+    {
+      "id": "libong_mosque",
+      "hotel_id": "koh_libong_dugong",
+      "category": "attraction",
+      "name": "Central Mosque",
+      "type": "cultural",
+      "desc": "Beautiful mosque serving the Muslim community",
+      "lat": 7.216,
+      "lng": 99.4
+    },
+    {
+      "id": "libong_viewpoint",
+      "hotel_id": "koh_libong_dugong",
+      "category": "attraction",
+      "name": "Libong Viewpoint",
+      "type": "nature",
+      "desc": "Hilltop views across the island",
+      "lat": 7.235,
+      "lng": 99.38
+    },
+    {
+      "id": "libong_birdwatch",
+      "hotel_id": "koh_libong_dugong",
+      "category": "attraction",
+      "name": "Birdwatching Hide",
+      "type": "wildlife",
+      "desc": "Spot migratory birds in the wetlands",
+      "lat": 7.208,
+      "lng": 99.415
+    },
+    {
+      "id": "kradan_anantara",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "dinner",
+      "name": "Anantara Si Kao Restaurant",
+      "type": "Thai/International",
+      "desc": "Upscale dining at the luxury resort",
+      "lat": 7.3085,
+      "lng": 99.2505
+    },
+    {
+      "id": "kradan_sunset_rest",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "dinner",
+      "name": "Sunset Terrace",
+      "type": "Thai/Seafood",
+      "desc": "BBQ seafood as the sun sets",
+      "lat": 7.3155,
+      "lng": 99.2555
+    },
+    {
+      "id": "kradan_paradise_rest",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "dinner",
+      "name": "Paradise Lost Restaurant",
+      "type": "Thai/Western",
+      "desc": "Cozy spot with candles on the beach",
+      "lat": 7.314,
+      "lng": 99.2548
+    },
+    {
+      "id": "kradan_had_farang",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "dinner",
+      "name": "Had Farang Kitchen",
+      "type": "Thai",
+      "desc": "Local family-run with fresh seafood",
+      "lat": 7.3095,
+      "lng": 99.2525
+    },
+    {
+      "id": "kradan_moonlight",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "dinner",
+      "name": "Moonlight Beach BBQ",
+      "type": "Seafood",
+      "desc": "Choose your seafood, cooked on the grill",
+      "lat": 7.3165,
+      "lng": 99.2565
+    },
+    {
+      "id": "kradan_snorkel_cafe",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "lunch",
+      "name": "Snorkel Point Cafe",
+      "type": "Cafe",
+      "desc": "Refreshments after snorkeling the reef",
+      "lat": 7.319,
+      "lng": 99.2575
+    },
+    {
+      "id": "kradan_fruit_lady",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "lunch",
+      "name": "Fruit Lady Stand",
+      "type": "Thai",
+      "desc": "Fresh fruit, coconuts & simple Thai",
+      "lat": 7.3148,
+      "lng": 99.2552
+    },
+    {
+      "id": "kradan_sunset_point",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "attraction",
+      "name": "Sunset Point",
+      "type": "nature",
+      "desc": "Best spot for dramatic sunsets",
+      "lat": 7.307,
+      "lng": 99.247
+    },
+    {
+      "id": "kradan_snorkel_reef",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "attraction",
+      "name": "North Reef Snorkeling",
+      "type": "activity",
+      "desc": "Colorful coral garden accessible from beach",
+      "lat": 7.32,
+      "lng": 99.259
+    },
+    {
+      "id": "kradan_viewpoint",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "attraction",
+      "name": "Kradan Viewpoint",
+      "type": "nature",
+      "desc": "Short hike to island panorama",
+      "lat": 7.3115,
+      "lng": 99.252
+    },
+    {
+      "id": "kradan_wedding",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "attraction",
+      "name": "Underwater Wedding Site",
+      "type": "cultural",
+      "desc": "Famous spot for Valentine's underwater weddings",
+      "lat": 7.318,
+      "lng": 99.258
+    },
+    {
+      "id": "kradan_kohmook",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "attraction",
+      "name": "Koh Mook Day Trip",
+      "type": "activity",
+      "desc": "Visit neighboring island & Emerald Cave",
+      "lat": 7.3695,
+      "lng": 99.292
+    },
+    {
+      "id": "lanta_beautiful",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "dinner",
+      "name": "Beautiful Restaurant",
+      "type": "Thai",
+      "desc": "Oceanfront Thai with stunning views",
+      "lat": 7.572,
+      "lng": 99.0295
+    },
+    {
+      "id": "lanta_same_same",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "dinner",
+      "name": "Same Same But Different",
+      "type": "Thai/Western",
+      "desc": "Eclectic menu with great cocktails",
+      "lat": 7.642,
+      "lng": 99.0325
+    },
+    {
+      "id": "lanta_mango_house",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "dinner",
+      "name": "Mango House",
+      "type": "Thai/Seafood",
+      "desc": "Fresh seafood BBQ on the beach",
+      "lat": 7.5835,
+      "lng": 99.0288
+    },
+    {
+      "id": "lanta_otto",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "dinner",
+      "name": "Otto's Bar & Restaurant",
+      "type": "German/Thai",
+      "desc": "German owner's fusion spot",
+      "lat": 7.568,
+      "lng": 99.031
+    },
+    {
+      "id": "lanta_shanti",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "dinner",
+      "name": "Shanti Shanti",
+      "type": "Thai/Indian",
+      "desc": "Beachfront with Indian-Thai fusion",
+      "lat": 7.577,
+      "lng": 99.0285
+    },
+    {
+      "id": "lanta_fruit",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "lunch",
+      "name": "Fruit Factory",
+      "type": "Cafe",
+      "desc": "Smoothie bowls & healthy bites",
+      "lat": 7.5815,
+      "lng": 99.0305
+    },
+    {
+      "id": "lanta_bakery",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "lunch",
+      "name": "Swedish Bakery",
+      "type": "Bakery",
+      "desc": "Fresh bread, pastries & sandwiches",
+      "lat": 7.6455,
+      "lng": 99.038
+    },
+    {
+      "id": "lanta_diamond",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "lunch",
+      "name": "Diamond Cliff Cafe",
+      "type": "Cafe",
+      "desc": "Clifftop cafe with amazing views",
+      "lat": 7.498,
+      "lng": 99.037
+    },
+    {
+      "id": "lanta_khlong_dao",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "lunch",
+      "name": "Khlong Dao Beach BBQ",
+      "type": "Thai",
+      "desc": "Beachside grills at local prices",
+      "lat": 7.638,
+      "lng": 99.0315
+    },
+    {
+      "id": "lanta_papaya",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "lunch",
+      "name": "Papaya Mama",
+      "type": "Thai",
+      "desc": "Authentic papaya salad specialist",
+      "lat": 7.565,
+      "lng": 99.042
+    },
+    {
+      "id": "lanta_bamboo",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "attraction",
+      "name": "Bamboo Beach",
+      "type": "beach",
+      "desc": "Hidden beach in the national park",
+      "lat": 7.465,
+      "lng": 99.092
+    },
+    {
+      "id": "lanta_monkey",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "attraction",
+      "name": "Monkey Trail",
+      "type": "nature",
+      "desc": "Jungle walk with wild monkeys",
+      "lat": 7.51,
+      "lng": 99.055
+    },
+    {
+      "id": "lanta_viewpoint2",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "attraction",
+      "name": "Lanta Viewpoint",
+      "type": "nature",
+      "desc": "Panoramic hilltop photo spot",
+      "lat": 7.5,
+      "lng": 99.045
+    },
+    {
+      "id": "lanta_cooking",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "attraction",
+      "name": "Thai Cooking Class",
+      "type": "activity",
+      "desc": "Learn to cook Thai classics",
+      "lat": 7.64,
+      "lng": 99.034
+    },
+    {
+      "id": "lanta_elephant",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "attraction",
+      "name": "Lanta Elephant Sanctuary",
+      "type": "wildlife",
+      "desc": "Ethical elephant experience",
+      "lat": 7.54,
+      "lng": 99.065
+    },
+    {
+      "id": "bkk2_somsakto",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "dinner",
+      "name": "Somsak Pu Ob",
+      "type": "Thai",
+      "desc": "Famous crab curry near the river",
+      "lat": 13.7445,
+      "lng": 100.492
+    },
+    {
+      "id": "bkk2_steve",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "dinner",
+      "name": "Steve Cafe & Cuisine",
+      "type": "Thai",
+      "desc": "Canal-side dining with live music",
+      "lat": 13.758,
+      "lng": 100.4935
+    },
+    {
+      "id": "bkk2_thewet",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "dinner",
+      "name": "Thewet Pier Restaurant",
+      "type": "Thai",
+      "desc": "Local favorite by the flower market",
+      "lat": 13.762,
+      "lng": 100.5015
+    },
+    {
+      "id": "bkk2_methavalai",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "dinner",
+      "name": "Methavalai Sorndaeng",
+      "type": "Thai",
+      "desc": "Classic Thai since 1957",
+      "lat": 13.751,
+      "lng": 100.498
+    },
+    {
+      "id": "bkk2_nara",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "dinner",
+      "name": "Nara Thai Cuisine",
+      "type": "Thai",
+      "desc": "Upscale Thai in Icon Siam",
+      "lat": 13.7267,
+      "lng": 100.5097
+    },
+    {
+      "id": "bkk2_thanusingha",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "lunch",
+      "name": "Thanusingha Bakery",
+      "type": "Bakery",
+      "desc": "Historic 100-year-old bakery",
+      "lat": 13.7395,
+      "lng": 100.5085
+    },
+    {
+      "id": "bkk2_naitoey",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "lunch",
+      "name": "Nai Toey Boat Noodles",
+      "type": "Thai",
+      "desc": "Traditional boat noodles",
+      "lat": 13.748,
+      "lng": 100.495
+    },
+    {
+      "id": "bkk2_royal",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "lunch",
+      "name": "Royal India",
+      "type": "Indian",
+      "desc": "Classic Indian in Chinatown",
+      "lat": 13.7385,
+      "lng": 100.5088
+    },
+    {
+      "id": "bkk2_sala_arun",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "lunch",
+      "name": "Sala Arun Cafe",
+      "type": "Cafe",
+      "desc": "Coffee with Wat Arun views",
+      "lat": 13.745,
+      "lng": 100.4895
+    },
+    {
+      "id": "bkk2_nittaya",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "lunch",
+      "name": "Nittaya Kai Yang",
+      "type": "Thai",
+      "desc": "Famous grilled chicken stall",
+      "lat": 13.756,
+      "lng": 100.492
+    },
+    {
+      "id": "bkk2_museum",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "attraction",
+      "name": "Museum Siam",
+      "type": "cultural",
+      "desc": "Interactive Thai history museum",
+      "lat": 13.7458,
+      "lng": 100.4922
+    },
+    {
+      "id": "bkk2_flower",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "attraction",
+      "name": "Flower Market Walking Tour",
+      "type": "activity",
+      "desc": "Early morning flower market experience",
+      "lat": 13.7405,
+      "lng": 100.497
+    },
+    {
+      "id": "bkk2_golden",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "attraction",
+      "name": "Golden Mount (Wat Saket)",
+      "type": "cultural",
+      "desc": "Climb 300 steps for panoramic views",
+      "lat": 13.7535,
+      "lng": 100.5068
+    },
+    {
+      "id": "bkk2_artist",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "attraction",
+      "name": "Artist House",
+      "type": "cultural",
+      "desc": "Traditional puppet shows in old teak house",
+      "lat": 13.7268,
+      "lng": 100.4755
+    },
+    {
+      "id": "bkk2_klong",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "attraction",
+      "name": "Khlong Boat Tour",
+      "type": "activity",
+      "desc": "Explore Bangkok's hidden canals",
+      "lat": 13.742,
+      "lng": 100.488
+    },
+    {
+      "id": "libong_pier_lunch",
+      "hotel_id": "koh_libong_dugong",
+      "category": "lunch",
+      "name": "Pier Side Cafe",
+      "type": "Thai",
+      "desc": "Quick bites near the ferry pier",
+      "lat": 7.2148,
+      "lng": 99.4045
+    },
+    {
+      "id": "libong_seafood_lunch",
+      "hotel_id": "koh_libong_dugong",
+      "category": "lunch",
+      "name": "Fresh Catch Lunch",
+      "type": "Seafood",
+      "desc": "Simple grilled fish & seafood",
+      "lat": 7.229,
+      "lng": 99.3685
+    },
+    {
+      "id": "libong_noodle",
+      "hotel_id": "koh_libong_dugong",
+      "category": "lunch",
+      "name": "Auntie's Noodle Shop",
+      "type": "Thai",
+      "desc": "Handmade noodles & Thai soups",
+      "lat": 7.2195,
+      "lng": 99.3865
+    },
+    {
+      "id": "kradan_bbq_lunch",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "lunch",
+      "name": "Beach BBQ Hut",
+      "type": "Thai",
+      "desc": "Grilled skewers & Thai salads",
+      "lat": 7.3142,
+      "lng": 99.2555
+    },
+    {
+      "id": "kradan_smoothie",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "lunch",
+      "name": "Smoothie Station",
+      "type": "Cafe",
+      "desc": "Fresh fruit smoothies & juices",
+      "lat": 7.3152,
+      "lng": 99.256
+    },
+    {
+      "id": "kradan_thai_kitchen",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "lunch",
+      "name": "Island Thai Kitchen",
+      "type": "Thai",
+      "desc": "Home-style Thai dishes daily",
+      "lat": 7.3125,
+      "lng": 99.2535
     }
   ]
 }
