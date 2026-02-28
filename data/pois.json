@@ -607,6 +607,39 @@
       "lng": 99.3850
     },
     {
+      "id": "libong_muslim_rest",
+      "hotel_id": "koh_libong_dugong",
+      "category": "lunch",
+      "name": "Muslim Village Restaurant",
+      "type": "Thai/Halal",
+      "desc": "Authentic halal Thai food in the fishing village",
+      "address": "Batu Bute Village, Koh Libong, Trang 92110",
+      "lat": 7.2155,
+      "lng": 99.4040
+    },
+    {
+      "id": "libong_riverside",
+      "hotel_id": "koh_libong_dugong",
+      "category": "lunch",
+      "name": "Riverside Noodles",
+      "type": "Thai",
+      "desc": "Boat noodles & Thai classics by the water",
+      "address": "Near pier, Koh Libong, Trang 92110",
+      "lat": 7.2165,
+      "lng": 99.4020
+    },
+    {
+      "id": "libong_mango",
+      "hotel_id": "koh_libong_dugong",
+      "category": "lunch",
+      "name": "Mango Tree Cafe",
+      "type": "Cafe",
+      "desc": "Fresh fruit shakes & simple Thai dishes",
+      "address": "Main road, Koh Libong, Trang 92110",
+      "lat": 7.2210,
+      "lng": 99.3870
+    },
+    {
       "id": "libong_dugong_watch",
       "hotel_id": "koh_libong_dugong",
       "category": "attraction",
@@ -755,6 +788,39 @@
       "address": "Paradise Beach, Koh Kradan, Trang 92110",
       "lat": 7.3145,
       "lng": 99.2550
+    },
+    {
+      "id": "kradan_castaway",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "lunch",
+      "name": "Castaway Beach Cafe",
+      "type": "Thai/Western",
+      "desc": "Relaxed beachfront cafe with Thai & Western bites",
+      "address": "North Paradise Beach, Koh Kradan, Trang 92110",
+      "lat": 7.3180,
+      "lng": 99.2575
+    },
+    {
+      "id": "kradan_sunrise_cafe",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "lunch",
+      "name": "Sunrise Point Cafe",
+      "type": "Cafe",
+      "desc": "Coffee & breakfast with morning sea views",
+      "address": "East side, Koh Kradan, Trang 92110",
+      "lat": 7.3110,
+      "lng": 99.2580
+    },
+    {
+      "id": "kradan_kokonut",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "lunch",
+      "name": "Kokonut Kitchen",
+      "type": "Thai",
+      "desc": "Home-style Thai cooking by a local family",
+      "address": "Koh Kradan, Trang 92110",
+      "lat": 7.3135,
+      "lng": 99.2545
     },
     {
       "id": "kradan_paradise_reef",
