@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(unzip:*)",
-      "WebSearch",
-      "WebFetch(domain:divezone.net)"
-    ]
-  }
-}
