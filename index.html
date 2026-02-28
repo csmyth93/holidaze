@@ -140,10 +140,17 @@
 
         .area-summary { font-size: 0.8rem; color: #6b5344; margin-top: 0.75rem; padding: 0.75rem; background: linear-gradient(135deg, #f5f0e8 0%, #efe8dd 100%); border-radius: 8px; line-height: 1.5; border-left: 3px solid #c9a227; }
 
+        /* Drag handle for mobile sidebar resize */
+        .drag-handle { display: none; }
+
         @media (max-width: 768px) {
             .app { flex-direction: column; }
-            .sidebar { width: 100%; height: 40vh; order: 2; }
-            .map-container { height: 60vh; order: 1; }
+            .sidebar { width: 100%; height: 40vh; order: 2; border-radius: 16px 16px 0 0; border-right: none; border-top: 1px solid #e8d4b8; padding-top: 0.5rem; }
+            .map-container { flex: 1; order: 1; height: auto; }
+            .drag-handle { display: flex; justify-content: center; align-items: center; padding: 0.5rem 0; cursor: grab; touch-action: none; }
+            .drag-handle:active { cursor: grabbing; }
+            .drag-handle-bar { width: 40px; height: 5px; background: #d4c4a8; border-radius: 3px; }
+            .sidebar.dragging { transition: none; }
         }
     </style>
 </head>
@@ -174,7 +181,10 @@
 
     <!-- Main App -->
     <div class="app" id="mainApp">
-        <aside class="sidebar">
+        <aside class="sidebar" id="sidebar">
+            <div class="drag-handle" id="dragHandle">
+                <div class="drag-handle-bar"></div>
+            </div>
             <div class="user-header">
                 <span class="user-greeting">Welcome, <strong id="userName"></strong>!</span>
                 <button class="logout-btn" id="logoutBtn">Sign out</button>
@@ -1815,6 +1825,44 @@
         usernameInput.addEventListener('input', () => {
             loginError.classList.remove('show');
         });
+
+        // ========== MOBILE SIDEBAR DRAG RESIZE ==========
+        const sidebar = document.getElementById('sidebar');
+        const dragHandle = document.getElementById('dragHandle');
+        let isDragging = false;
+        let startY = 0;
+        let startHeight = 0;
+
+        function startDrag(e) {
+            if (window.innerWidth > 768) return;
+            isDragging = true;
+            startY = e.type === 'mousedown' ? e.clientY : e.touches[0].clientY;
+            startHeight = sidebar.offsetHeight;
+            sidebar.classList.add('dragging');
+            e.preventDefault();
+        }
+
+        function doDrag(e) {
+            if (!isDragging) return;
+            const currentY = e.type === 'mousemove' ? e.clientY : e.touches[0].clientY;
+            const deltaY = startY - currentY;
+            const newHeight = Math.min(Math.max(startHeight + deltaY, window.innerHeight * 0.15), window.innerHeight * 0.85);
+            sidebar.style.height = newHeight + 'px';
+            map.invalidateSize();
+        }
+
+        function endDrag() {
+            if (!isDragging) return;
+            isDragging = false;
+            sidebar.classList.remove('dragging');
+        }
+
+        dragHandle.addEventListener('mousedown', startDrag);
+        dragHandle.addEventListener('touchstart', startDrag, { passive: false });
+        document.addEventListener('mousemove', doDrag);
+        document.addEventListener('touchmove', doDrag, { passive: false });
+        document.addEventListener('mouseup', endDrag);
+        document.addEventListener('touchend', endDrag);
     </script>
 </body>
 </html>
