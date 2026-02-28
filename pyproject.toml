@@ -1,0 +1,12 @@
+[project]
+name = "holidaze"
+version = "0.1.0"
+description = "WhatsApp chat itinerary extractor"
+requires-python = ">=3.12"
+dependencies = [
+    "jinja2>=3.1.0",
+    "dateparser>=1.2.0",
+]
+
+[project.scripts]
+holidaze = "src.main:main"

@@ -1,0 +1,188 @@
+{
+  "title": "Thailand Andaman Coast",
+  "destination": "Thailand",
+  "start_date": "2026-03-14",
+  "end_date": "2026-03-28",
+  "participants": ["Jude", "Laura", "Andy", "Callum"],
+  "items": [
+    {
+      "id": "flight-out",
+      "category": "flight",
+      "title": "London to Bangkok",
+      "start_date": "2026-03-13",
+      "details": {
+        "departure": "LHR 20:05 Terminal 4",
+        "arrival": "BKK 17:45 +1 day",
+        "airline": "Etihad"
+      }
+    },
+    {
+      "id": "bangkok-1",
+      "category": "hotel",
+      "title": "Salil Hotel Sukhumvit",
+      "location": "Bangkok",
+      "start_date": "2026-03-14",
+      "end_date": "2026-03-16",
+      "details": {
+        "nights": 2
+      }
+    },
+    {
+      "id": "flight-domestic-1",
+      "category": "flight",
+      "title": "Bangkok to Hat Yai",
+      "start_date": "2026-03-16",
+      "details": {
+        "departure": "BKK 08:30",
+        "airline": "Air Asia"
+      }
+    },
+    {
+      "id": "transfer-1",
+      "category": "transfer",
+      "title": "Van + Boat to Koh Lipe",
+      "start_date": "2026-03-16",
+      "details": {
+        "arrival": "15:10",
+        "from": "Hat Yai",
+        "to": "Koh Lipe"
+      }
+    },
+    {
+      "id": "lipe",
+      "category": "hotel",
+      "title": "Lipe Beach Resort",
+      "location": "Koh Lipe",
+      "start_date": "2026-03-16",
+      "end_date": "2026-03-19",
+      "details": {
+        "nights": 3,
+        "room_type": "Beachfront Bungalow"
+      }
+    },
+    {
+      "id": "transfer-2",
+      "category": "transfer",
+      "title": "Ferry Lipe to Libong",
+      "start_date": "2026-03-19",
+      "details": {
+        "departure": "12:30 Pattaya Beach",
+        "arrival": "15:00 Maphrao Pier",
+        "from": "Koh Lipe",
+        "to": "Koh Libong"
+      }
+    },
+    {
+      "id": "libong",
+      "category": "hotel",
+      "title": "Le Dugong Libong Resort",
+      "location": "Koh Libong",
+      "start_date": "2026-03-19",
+      "end_date": "2026-03-21",
+      "details": {
+        "nights": 2,
+        "highlights": ["Dugongs"]
+      }
+    },
+    {
+      "id": "transfer-3",
+      "category": "transfer",
+      "title": "Van + Longtail Boat to Kradan",
+      "start_date": "2026-03-21",
+      "details": {
+        "departure": "11:30",
+        "arrival": "12:30",
+        "from": "Koh Libong",
+        "to": "Koh Kradan"
+      }
+    },
+    {
+      "id": "kradan",
+      "category": "hotel",
+      "title": "Kradan Beach Resort",
+      "location": "Koh Kradan",
+      "start_date": "2026-03-21",
+      "end_date": "2026-03-23",
+      "details": {
+        "nights": 2,
+        "highlights": ["Emerald Cave", "Koh Muk daytrip"]
+      }
+    },
+    {
+      "id": "transfer-4",
+      "category": "transfer",
+      "title": "Ferry Kradan to Lanta",
+      "start_date": "2026-03-23",
+      "details": {
+        "departure": "10:45",
+        "arrival": "12:00",
+        "from": "Koh Kradan",
+        "to": "Koh Lanta"
+      }
+    },
+    {
+      "id": "lanta",
+      "category": "hotel",
+      "title": "Relax Bay Beach Resort",
+      "location": "Koh Lanta",
+      "start_date": "2026-03-23",
+      "end_date": "2026-03-27",
+      "details": {
+        "nights": 4,
+        "highlights": [
+          "Koh Hong (Krabi) day trip",
+          "Emerald lagoon kayaking",
+          "Limestone cliffs",
+          "Mangrove Kayaking",
+          "Tung Yee Peng"
+        ]
+      }
+    },
+    {
+      "id": "transfer-5",
+      "category": "transfer",
+      "title": "Koh Lanta to Krabi Airport",
+      "start_date": "2026-03-27",
+      "details": {
+        "departure": "11:00",
+        "arrival": "13:00",
+        "from": "Koh Lanta",
+        "to": "Krabi"
+      }
+    },
+    {
+      "id": "flight-domestic-2",
+      "category": "flight",
+      "title": "Krabi to Bangkok",
+      "start_date": "2026-03-27",
+      "details": {
+        "departure": "15:55",
+        "arrival": "17:15",
+        "airline": "Air Asia"
+      }
+    },
+    {
+      "id": "bangkok-2",
+      "category": "hotel",
+      "title": "Casa Vimaya Riverside",
+      "location": "Bangkok",
+      "start_date": "2026-03-27",
+      "end_date": "2026-03-28",
+      "details": {
+        "nights": 1,
+        "area": "Riverside"
+      }
+    },
+    {
+      "id": "flight-home",
+      "category": "flight",
+      "title": "Bangkok to London",
+      "start_date": "2026-03-28",
+      "details": {
+        "departure": "BKK 20:05",
+        "arrival": "LHR 06:30 +1 day",
+        "airline": "Etihad"
+      }
+    }
+  ]
+}

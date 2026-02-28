@@ -1,0 +1,72 @@
+{
+  "locations": {
+    "bangkok": {
+      "name": "Bangkok",
+      "address": "Bangkok, Thailand",
+      "lat": 13.7563,
+      "lng": 100.5018,
+      "type": "city"
+    },
+    "hat_yai": {
+      "name": "Hat Yai Airport",
+      "address": "Hat Yai International Airport, Khlong La, Khuan Niang, Songkhla 90110",
+      "lat": 6.9331,
+      "lng": 100.3928,
+      "type": "airport",
+      "iata": "HDY"
+    },
+    "koh_lipe": {
+      "name": "Koh Lipe",
+      "address": "Pattaya Beach Pier, Koh Lipe, Satun 91000",
+      "lat": 6.4850,
+      "lng": 99.3015,
+      "type": "island"
+    },
+    "koh_libong": {
+      "name": "Koh Libong",
+      "address": "Koh Libong Pier, Kantang, Trang 92110",
+      "lat": 7.2150,
+      "lng": 99.4050,
+      "type": "island"
+    },
+    "koh_kradan": {
+      "name": "Koh Kradan",
+      "address": "Koh Kradan, Kantang, Trang 92110",
+      "lat": 7.3100,
+      "lng": 99.2531,
+      "type": "island"
+    },
+    "koh_lanta": {
+      "name": "Koh Lanta",
+      "address": "Saladan Pier, Koh Lanta, Krabi 81150",
+      "lat": 7.6505,
+      "lng": 99.0397,
+      "type": "island"
+    },
+    "krabi": {
+      "name": "Krabi Airport",
+      "address": "Krabi International Airport, Nuea Khlong, Krabi 81130",
+      "lat": 8.0986,
+      "lng": 98.9862,
+      "type": "airport",
+      "iata": "KBV"
+    }
+  },
+  "route": [
+    {"from": "bangkok", "to": "hat_yai", "type": "flight", "date": "2026-03-16", "label": "Air Asia"},
+    {"from": "hat_yai", "to": "koh_lipe", "type": "transfer", "date": "2026-03-16", "label": "Van + Speedboat"},
+    {"from": "koh_lipe", "to": "koh_libong", "type": "ferry", "date": "2026-03-19", "label": "Ferry"},
+    {"from": "koh_libong", "to": "koh_kradan", "type": "ferry", "date": "2026-03-21", "label": "Longtail Boat"},
+    {"from": "koh_kradan", "to": "koh_lanta", "type": "ferry", "date": "2026-03-23", "label": "Ferry"},
+    {"from": "koh_lanta", "to": "krabi", "type": "transfer", "date": "2026-03-27", "label": "Van"},
+    {"from": "krabi", "to": "bangkok", "type": "flight", "date": "2026-03-27", "label": "Air Asia"}
+  ],
+  "stays": [
+    {"location": "bangkok", "hotel": "Salil Hotel Sukhumvit", "start": "2026-03-14", "end": "2026-03-16", "nights": 2, "arrival": "evening", "arrivalTime": "17:45", "departure": "morning", "departureTime": "08:30"},
+    {"location": "koh_lipe", "hotel": "Lipe Beach Resort", "start": "2026-03-16", "end": "2026-03-19", "nights": 3, "arrival": "afternoon", "arrivalTime": "15:10", "departure": "midday", "departureTime": "12:30"},
+    {"location": "koh_libong", "hotel": "Le Dugong Libong Resort", "start": "2026-03-19", "end": "2026-03-21", "nights": 2, "arrival": "afternoon", "arrivalTime": "15:00", "departure": "late morning", "departureTime": "11:30"},
+    {"location": "koh_kradan", "hotel": "Kradan Beach Resort", "start": "2026-03-21", "end": "2026-03-23", "nights": 2, "arrival": "midday", "arrivalTime": "12:30", "departure": "morning", "departureTime": "10:45"},
+    {"location": "koh_lanta", "hotel": "Relax Bay Beach Resort", "start": "2026-03-23", "end": "2026-03-27", "nights": 4, "arrival": "midday", "arrivalTime": "12:00", "departure": "late morning", "departureTime": "11:00"},
+    {"location": "bangkok", "hotel": "Casa Vimaya Riverside", "start": "2026-03-27", "end": "2026-03-28", "nights": 1, "arrival": "evening", "arrivalTime": "17:15", "departure": "evening", "departureTime": "20:05"}
+  ]
+}
