@@ -47,23 +47,23 @@ def build_map():
             'departureTime': hotel['departureTime'],
             'weather': hotel['weather'],
             'attractions': [
-                {'name': p['name'], 'type': p['type'], 'desc': p['desc'], 'lat': p['lat'], 'lng': p['lng'], 'website': p.get('website')}
+                {'id': p['id'], 'name': p['name'], 'type': p['type'], 'desc': p['desc'], 'lat': p['lat'], 'lng': p['lng'], 'website': p.get('website')}
                 for p in hotel_pois.get('attraction', [])
             ],
             'dinner': [
-                {'name': p['name'], 'cuisine': p['type'], 'desc': p['desc'], 'lat': p['lat'], 'lng': p['lng'], 'website': p.get('website')}
+                {'id': p['id'], 'name': p['name'], 'cuisine': p['type'], 'desc': p['desc'], 'lat': p['lat'], 'lng': p['lng'], 'website': p.get('website')}
                 for p in hotel_pois.get('dinner', [])
             ],
             'lunch': [
-                {'name': p['name'], 'cuisine': p['type'], 'desc': p['desc'], 'lat': p['lat'], 'lng': p['lng'], 'website': p.get('website')}
+                {'id': p['id'], 'name': p['name'], 'cuisine': p['type'], 'desc': p['desc'], 'lat': p['lat'], 'lng': p['lng'], 'website': p.get('website')}
                 for p in hotel_pois.get('lunch', [])
             ],
             'bars': [
-                {'name': p['name'], 'type': p['type'], 'desc': p['desc'], 'lat': p['lat'], 'lng': p['lng'], 'website': p.get('website')}
+                {'id': p['id'], 'name': p['name'], 'type': p['type'], 'desc': p['desc'], 'lat': p['lat'], 'lng': p['lng'], 'website': p.get('website')}
                 for p in hotel_pois.get('bar', [])
             ],
             'diving': [
-                {'name': p['name'], 'depth': p['type'], 'desc': p['desc'], 'lat': p['lat'], 'lng': p['lng']}
+                {'id': p['id'], 'name': p['name'], 'depth': p['type'], 'desc': p['desc'], 'lat': p['lat'], 'lng': p['lng']}
                 for p in hotel_pois.get('diving', [])
             ] if hotel_pois.get('diving') else None,
             'summary': hotel.get('summary', '')
@@ -199,6 +199,24 @@ def generate_html(data):
         .food-cuisine {{ font-size: 0.7rem; color: #e07b39; background: rgba(224,123,57,0.1); padding: 0.1rem 0.4rem; border-radius: 4px; font-weight: 500; }}
         .dive-depth {{ font-size: 0.7rem; color: #0891b2; font-weight: 500; }}
 
+        /* Favorite button styles */
+        .fav-btn {{ background: none; border: none; cursor: pointer; font-size: 1rem; padding: 0.2rem; margin-left: auto; color: #ccc; transition: all 0.2s; flex-shrink: 0; }}
+        .fav-btn:hover {{ transform: scale(1.2); color: #e74c3c; }}
+        .fav-btn.favorited {{ color: #e74c3c; }}
+        .attraction-item, .food-item, .dive-item {{ align-items: flex-start; }}
+
+        /* Favorites filter toggle */
+        .fav-filter {{ display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0; margin-bottom: 0.5rem; }}
+        .fav-filter-toggle {{ width: 18px; height: 18px; accent-color: #e74c3c; cursor: pointer; }}
+        .fav-filter-label {{ font-size: 0.85rem; color: #8b7355; cursor: pointer; }}
+        .fav-filter-label:hover {{ color: #e74c3c; }}
+
+        /* Hide non-favorites when filter active */
+        .favorites-only .stay-card:not(.has-favorites) {{ display: none; }}
+        .favorites-only .attraction-item:not(.favorited),
+        .favorites-only .food-item:not(.favorited),
+        .favorites-only .dive-item:not(.favorited) {{ display: none; }}
+
         .transfer-card {{ background: linear-gradient(135deg, #ffffff 0%, #fffbf5 100%); border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 0.5rem; font-size: 0.85rem; display: flex; align-items: center; gap: 0.75rem; border: 1px solid #e8d4b8; }}
         .transfer-icon {{ font-size: 1.2rem; }}
         .transfer-details {{ flex: 1; }}
@@ -282,6 +300,10 @@ def generate_html(data):
             <div class="user-header">
                 <span class="user-greeting">Welcome, <strong id="userName"></strong>!</span>
                 <button class="logout-btn" id="logoutBtn">Sign out</button>
+            </div>
+            <div class="fav-filter">
+                <input type="checkbox" id="favFilter" class="fav-filter-toggle">
+                <label for="favFilter" class="fav-filter-label">Show favorites only</label>
             </div>
             <h1>Thailand 2026</h1>
             <p class="subtitle">Andaman Coast Island Hopping<br>March 14 - 28</p>
@@ -439,56 +461,61 @@ def generate_html(data):
             const weatherIcons = {{ sunny: '☀️', partly_cloudy: '⛅', cloudy: '☁️', rain: '🌧️', storm: '⛈️' }};
 
             const attractionsHtml = stay.attractions.map(a => `
-                <div class="attraction-item">
+                <div class="attraction-item" data-id="${{a.id}}" data-category="attractions">
                     <div class="attraction-icon">${{typeIcons[a.type] || '📍'}}</div>
                     <div class="attraction-info">
                         <div class="attraction-name">${{a.website ? `<a href="${{a.website}}" target="_blank" rel="noopener" title="View on map">${{a.name}} ↗</a>` : a.name}}</div>
                         <div class="attraction-desc">${{a.desc}}</div>
                     </div>
+                    <button class="fav-btn" data-id="${{a.id}}" data-category="attractions" title="Add to favorites">♡</button>
                 </div>
             `).join('');
 
             const dinnerHtml = stay.dinner.map(d => `
-                <div class="food-item">
+                <div class="food-item" data-id="${{d.id}}" data-category="dinner">
                     <div class="food-icon dinner">🍽️</div>
                     <div class="food-info">
                         <div class="food-name">${{d.website ? `<a href="${{d.website}}" target="_blank" rel="noopener" title="Visit website">${{d.name}} ↗</a>` : d.name}}</div>
                         <div><span class="food-cuisine">${{d.cuisine}}</span></div>
                         <div class="food-desc">${{d.desc}}</div>
                     </div>
+                    <button class="fav-btn" data-id="${{d.id}}" data-category="dinner" title="Add to favorites">♡</button>
                 </div>
             `).join('');
 
             const lunchHtml = stay.lunch.map(l => `
-                <div class="food-item">
+                <div class="food-item" data-id="${{l.id}}" data-category="lunch">
                     <div class="food-icon lunch">🥗</div>
                     <div class="food-info">
                         <div class="food-name">${{l.website ? `<a href="${{l.website}}" target="_blank" rel="noopener" title="Visit website">${{l.name}} ↗</a>` : l.name}}</div>
                         <div><span class="food-cuisine">${{l.cuisine}}</span></div>
                         <div class="food-desc">${{l.desc}}</div>
                     </div>
+                    <button class="fav-btn" data-id="${{l.id}}" data-category="lunch" title="Add to favorites">♡</button>
                 </div>
             `).join('');
 
             const barsHtml = stay.bars ? stay.bars.map(b => `
-                <div class="food-item">
+                <div class="food-item" data-id="${{b.id}}" data-category="bars">
                     <div class="food-icon bar">🍸</div>
                     <div class="food-info">
                         <div class="food-name">${{b.website ? `<a href="${{b.website}}" target="_blank" rel="noopener" title="Visit website">${{b.name}} ↗</a>` : b.name}}</div>
                         <div><span class="food-cuisine" style="color:#9b59b6;background:rgba(155,89,182,0.1)">${{b.type}}</span></div>
                         <div class="food-desc">${{b.desc}}</div>
                     </div>
+                    <button class="fav-btn" data-id="${{b.id}}" data-category="bars" title="Add to favorites">♡</button>
                 </div>
             `).join('') : '';
 
             const divingHtml = stay.diving ? stay.diving.map(d => `
-                <div class="dive-item">
+                <div class="dive-item" data-id="${{d.id}}" data-category="diving">
                     <div class="dive-icon">🤿</div>
                     <div class="dive-info">
                         <div class="dive-name">${{d.name}}</div>
                         <div><span class="dive-depth">${{d.depth}}</span></div>
                         <div class="dive-desc">${{d.desc}}</div>
                     </div>
+                    <button class="fav-btn" data-id="${{d.id}}" data-category="diving" title="Add to favorites">♡</button>
                 </div>
             `).join('') : '';
 
@@ -625,6 +652,107 @@ def generate_html(data):
         // Fit map to Thailand
         map.fitBounds([[6.0, 98.5], [14.5, 101.5]]);
 
+        // ========== JSONBIN CONFIG (Add your credentials here) ==========
+        const JSONBIN_ID = 'YOUR_BIN_ID';  // Replace with your JSONBin ID
+        const JSONBIN_KEY = 'YOUR_API_KEY';  // Replace with your JSONBin X-Master-Key
+
+        // ========== FAVORITES SYSTEM ==========
+        let favorites = {{}};
+        let allFavorites = {{}};
+        let currentUser = null;
+
+        async function loadFavorites(username) {{
+            currentUser = username;
+            // Try cloud first
+            try {{
+                const res = await fetch(`https://api.jsonbin.io/v3/b/${{JSONBIN_ID}}/latest`, {{
+                    headers: {{ 'X-Master-Key': JSONBIN_KEY }}
+                }});
+                const data = await res.json();
+                allFavorites = data.record || {{}};
+                favorites = allFavorites[username] || {{}};
+                // Cache locally
+                localStorage.setItem('holidaze_favorites_cache', JSON.stringify(allFavorites));
+            }} catch (e) {{
+                // Fallback to local cache
+                allFavorites = JSON.parse(localStorage.getItem('holidaze_favorites_cache') || '{{}}');
+                favorites = allFavorites[username] || {{}};
+                console.warn('Using cached favorites (offline mode)');
+            }}
+            updateAllFavoriteUI();
+        }}
+
+        async function toggleFavorite(id, category) {{
+            if (!currentUser) return;
+            if (!favorites[category]) favorites[category] = [];
+            const idx = favorites[category].indexOf(id);
+            if (idx > -1) {{
+                favorites[category].splice(idx, 1);
+            }} else {{
+                favorites[category].push(id);
+            }}
+
+            // Update cloud
+            allFavorites[currentUser] = favorites;
+            localStorage.setItem('holidaze_favorites_cache', JSON.stringify(allFavorites));
+
+            try {{
+                await fetch(`https://api.jsonbin.io/v3/b/${{JSONBIN_ID}}`, {{
+                    method: 'PUT',
+                    headers: {{
+                        'Content-Type': 'application/json',
+                        'X-Master-Key': JSONBIN_KEY
+                    }},
+                    body: JSON.stringify(allFavorites)
+                }});
+            }} catch (e) {{
+                console.warn('Failed to sync favorites to cloud');
+            }}
+
+            updateFavoriteUI(id, category);
+            updateStayCardFavoriteState();
+        }}
+
+        function isFavorited(id, category) {{
+            return favorites[category] && favorites[category].includes(id);
+        }}
+
+        function updateFavoriteUI(id, category) {{
+            const item = document.querySelector(`[data-id="${{id}}"][data-category="${{category}}"]`);
+            if (!item) return;
+            const btn = item.querySelector('.fav-btn') || item;
+            if (isFavorited(id, category)) {{
+                item.classList.add('favorited');
+                if (btn.classList.contains('fav-btn')) {{
+                    btn.classList.add('favorited');
+                    btn.textContent = '♥';
+                }}
+            }} else {{
+                item.classList.remove('favorited');
+                if (btn.classList.contains('fav-btn')) {{
+                    btn.classList.remove('favorited');
+                    btn.textContent = '♡';
+                }}
+            }}
+        }}
+
+        function updateAllFavoriteUI() {{
+            document.querySelectorAll('.fav-btn').forEach(btn => {{
+                const id = btn.dataset.id;
+                const category = btn.dataset.category;
+                updateFavoriteUI(id, category);
+            }});
+            updateStayCardFavoriteState();
+        }}
+
+        function updateStayCardFavoriteState() {{
+            // Mark stay cards that have at least one favorite
+            document.querySelectorAll('.stay-card').forEach(card => {{
+                const hasFav = card.querySelector('.favorited') !== null;
+                card.classList.toggle('has-favorites', hasFav);
+            }});
+        }}
+
         // ========== LOGIN SYSTEM ==========
         const allowedUsers = ['callum', 'laura', 'andy', 'andrew', 'jude', 'judith'];
         const loginPage = document.getElementById('loginPage');
@@ -640,6 +768,11 @@ def generate_html(data):
             userNameDisplay.textContent = displayName;
             loginPage.style.display = 'none';
             mainApp.style.display = 'flex';
+            // Load user's favorites from cloud
+            loadFavorites(username);
+            // Reset filter state
+            document.getElementById('favFilter').checked = false;
+            document.getElementById('stays-list').classList.remove('favorites-only');
             // Trigger map resize and fit to all stay locations
             setTimeout(() => {{
                 map.invalidateSize();
@@ -696,6 +829,24 @@ def generate_html(data):
         // Clear error on input
         usernameInput.addEventListener('input', () => {{
             loginError.classList.remove('show');
+        }});
+
+        // ========== FAVORITES EVENT HANDLERS ==========
+        // Delegate click handler for favorite buttons
+        document.getElementById('stays-list').addEventListener('click', (e) => {{
+            const favBtn = e.target.closest('.fav-btn');
+            if (favBtn) {{
+                e.stopPropagation();
+                e.preventDefault();
+                const id = favBtn.dataset.id;
+                const category = favBtn.dataset.category;
+                toggleFavorite(id, category);
+            }}
+        }});
+
+        // Favorites filter toggle
+        document.getElementById('favFilter').addEventListener('change', (e) => {{
+            document.getElementById('stays-list').classList.toggle('favorites-only', e.target.checked);
         }});
 
         // ========== MOBILE SIDEBAR DRAG RESIZE ==========
