@@ -182,7 +182,7 @@ def generate_html(data):
         .expand-btn.diving {{ border-left: 3px solid #0891b2; }}
 
         .panel {{ max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; background: #fffbf5; border-radius: 0 0 8px 8px; margin-top: -4px; border: 1px solid #e8d4b8; border-top: none; }}
-        .panel.open {{ max-height: 500px; padding: 0.75rem; }}
+        .panel.open {{ max-height: 1200px; padding: 0.75rem; overflow-y: auto; }}
 
         .attraction-item, .food-item, .dive-item {{ display: flex; gap: 0.75rem; padding: 0.6rem 0; border-bottom: 1px solid #f0e6d8; }}
         .attraction-item:last-child, .food-item:last-child, .dive-item:last-child {{ border-bottom: none; }}
