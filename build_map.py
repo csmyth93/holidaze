@@ -652,9 +652,9 @@ def generate_html(data):
         // Fit map to Thailand
         map.fitBounds([[6.0, 98.5], [14.5, 101.5]]);
 
-        // ========== JSONBIN CONFIG (Add your credentials here) ==========
-        const JSONBIN_ID = 'YOUR_BIN_ID';  // Replace with your JSONBin ID
-        const JSONBIN_KEY = 'YOUR_API_KEY';  // Replace with your JSONBin X-Master-Key
+        // ========== JSONBIN CONFIG ==========
+        const JSONBIN_ID = '69a336d9ae596e708f52ec85';
+        const JSONBIN_KEY = '$2a$10$wCuuZmAY7T.IwQtMq8rkqOt1s3nxZJvnyO2ZIGfdXjzwVV9Q3Eaxa';
 
         // ========== FAVORITES SYSTEM ==========
         let favorites = {{}};
