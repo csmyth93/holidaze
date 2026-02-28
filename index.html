@@ -1758,8 +1758,15 @@
             userNameDisplay.textContent = displayName;
             loginPage.style.display = 'none';
             mainApp.style.display = 'flex';
-            // Trigger map resize after showing
-            setTimeout(() => map.invalidateSize(), 100);
+            // Trigger map resize and fit to all stay locations
+            setTimeout(() => {
+                map.invalidateSize();
+                // Collect all hotel coordinates to fit bounds
+                const bounds = stays.map(stay => [stay.hotelLat, stay.hotelLng]);
+                if (bounds.length > 0) {
+                    map.fitBounds(bounds, { padding: [40, 40] });
+                }
+            }, 100);
         }
 
         function showLogin() {
