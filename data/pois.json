@@ -2340,6 +2340,376 @@
       "desc": "Home-style Thai dishes daily",
       "lat": 7.3125,
       "lng": 99.2535
+    },
+    {
+      "id": "bkk_vesper",
+      "hotel_id": "bangkok_salil",
+      "category": "bar",
+      "name": "Vesper",
+      "type": "Cocktail Bar",
+      "desc": "Award-winning cocktails in Silom",
+      "lat": 13.7248,
+      "lng": 100.5312
+    },
+    {
+      "id": "bkk_rabbit",
+      "hotel_id": "bangkok_salil",
+      "category": "bar",
+      "name": "Rabbit Hole",
+      "type": "Speakeasy",
+      "desc": "Hidden bar behind a wardrobe door",
+      "lat": 13.7298,
+      "lng": 100.5725
+    },
+    {
+      "id": "bkk_find",
+      "hotel_id": "bangkok_salil",
+      "category": "bar",
+      "name": "Find the Locker Room",
+      "type": "Speakeasy",
+      "desc": "Secret bar behind gym lockers",
+      "lat": 13.7395,
+      "lng": 100.5558
+    },
+    {
+      "id": "bkk_iron",
+      "hotel_id": "bangkok_salil",
+      "category": "bar",
+      "name": "Iron Fairies",
+      "type": "Cocktail Bar",
+      "desc": "Whimsical steampunk fairy bar",
+      "lat": 13.7315,
+      "lng": 100.5788
+    },
+    {
+      "id": "bkk_smalls",
+      "hotel_id": "bangkok_salil",
+      "category": "bar",
+      "name": "Smalls",
+      "type": "Jazz Bar",
+      "desc": "Intimate jazz club in Thonglor",
+      "lat": 13.7285,
+      "lng": 100.5845
+    },
+    {
+      "id": "lipe_lucky",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "bar",
+      "name": "Lucky Bar",
+      "type": "Beach Bar",
+      "desc": "Cheap drinks and reggae vibes",
+      "lat": 6.4869,
+      "lng": 99.3036
+    },
+    {
+      "id": "lipe_gecko",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "bar",
+      "name": "Gecko Bar",
+      "type": "Beach Bar",
+      "desc": "Laid-back spot with fire shows",
+      "lat": 6.4918,
+      "lng": 99.3076
+    },
+    {
+      "id": "lipe_sunrise_bar",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "bar",
+      "name": "Sunrise Beach Bar",
+      "type": "Beach Bar",
+      "desc": "Morning cocktails watching the sunrise",
+      "lat": 6.4925,
+      "lng": 99.3082
+    },
+    {
+      "id": "lipe_bundhaya",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "bar",
+      "name": "Bundhaya Bar",
+      "type": "Resort Bar",
+      "desc": "Upscale resort beachfront bar",
+      "lat": 6.4912,
+      "lng": 99.307
+    },
+    {
+      "id": "lipe_mountain",
+      "hotel_id": "koh_lipe_lipe_beach",
+      "category": "bar",
+      "name": "Mountain Resort Bar",
+      "type": "Viewpoint Bar",
+      "desc": "Elevated views over the island",
+      "lat": 6.4855,
+      "lng": 99.3015
+    },
+    {
+      "id": "libong_beach_bar",
+      "hotel_id": "koh_libong_dugong",
+      "category": "bar",
+      "name": "Libong Beach Bar",
+      "type": "Beach Bar",
+      "desc": "Simple beachfront drinks",
+      "lat": 7.2285,
+      "lng": 99.3665
+    },
+    {
+      "id": "libong_sunset_bar",
+      "hotel_id": "koh_libong_dugong",
+      "category": "bar",
+      "name": "Sunset Chill",
+      "type": "Beach Bar",
+      "desc": "Cold beers with sunset views",
+      "lat": 7.2278,
+      "lng": 99.3658
+    },
+    {
+      "id": "libong_andalay_bar",
+      "hotel_id": "koh_libong_dugong",
+      "category": "bar",
+      "name": "Andalay Bar",
+      "type": "Resort Bar",
+      "desc": "Relaxed resort drinks by the sea",
+      "lat": 7.2302,
+      "lng": 99.3698
+    },
+    {
+      "id": "libong_fisherman_bar",
+      "hotel_id": "koh_libong_dugong",
+      "category": "bar",
+      "name": "Fisherman's Rest",
+      "type": "Local Bar",
+      "desc": "Local spot with cold Chang beers",
+      "lat": 7.2195,
+      "lng": 99.3885
+    },
+    {
+      "id": "libong_hammock",
+      "hotel_id": "koh_libong_dugong",
+      "category": "bar",
+      "name": "Hammock Bar",
+      "type": "Beach Bar",
+      "desc": "Swing in hammocks with a cocktail",
+      "lat": 7.2288,
+      "lng": 99.3672
+    },
+    {
+      "id": "libong_starlight",
+      "hotel_id": "koh_libong_dugong",
+      "category": "bar",
+      "name": "Starlight Terrace",
+      "type": "Resort Bar",
+      "desc": "Evening drinks under the stars",
+      "lat": 7.228,
+      "lng": 99.367
+    },
+    {
+      "id": "libong_pier_bar",
+      "hotel_id": "koh_libong_dugong",
+      "category": "bar",
+      "name": "Pier Side Drinks",
+      "type": "Local Bar",
+      "desc": "Casual drinks by the pier",
+      "lat": 7.2152,
+      "lng": 99.4048
+    },
+    {
+      "id": "libong_mango_bar",
+      "hotel_id": "koh_libong_dugong",
+      "category": "bar",
+      "name": "Mango Bar",
+      "type": "Beach Bar",
+      "desc": "Fruit cocktails and cold beers",
+      "lat": 7.2215,
+      "lng": 99.3875
+    },
+    {
+      "id": "libong_dugong_lounge",
+      "hotel_id": "koh_libong_dugong",
+      "category": "bar",
+      "name": "Dugong Lounge",
+      "type": "Resort Bar",
+      "desc": "Main resort evening hangout",
+      "lat": 7.2283,
+      "lng": 99.3667
+    },
+    {
+      "id": "kradan_paradise_bar",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "bar",
+      "name": "Paradise Beach Bar",
+      "type": "Beach Bar",
+      "desc": "Cocktails on pristine sand",
+      "lat": 7.3142,
+      "lng": 99.2552
+    },
+    {
+      "id": "kradan_mali_bar",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "bar",
+      "name": "Mali Resort Bar",
+      "type": "Resort Bar",
+      "desc": "Relaxed evening drinks",
+      "lat": 7.3122,
+      "lng": 99.2532
+    },
+    {
+      "id": "kradan_sunset_bar",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "bar",
+      "name": "Kradan Sunset Bar",
+      "type": "Beach Bar",
+      "desc": "Best sunset spot on the island",
+      "lat": 7.3075,
+      "lng": 99.2475
+    },
+    {
+      "id": "kradan_moonlight_bar",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "bar",
+      "name": "Moonlight Lounge",
+      "type": "Beach Bar",
+      "desc": "Evening drinks under starry skies",
+      "lat": 7.316,
+      "lng": 99.2562
+    },
+    {
+      "id": "kradan_coconut",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "bar",
+      "name": "Coconut Grove Bar",
+      "type": "Beach Bar",
+      "desc": "Fresh coconut cocktails",
+      "lat": 7.3135,
+      "lng": 99.2545
+    },
+    {
+      "id": "kradan_diver_bar",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "bar",
+      "name": "Diver's Den",
+      "type": "Beach Bar",
+      "desc": "Post-dive beers and stories",
+      "lat": 7.3155,
+      "lng": 99.2558
+    },
+    {
+      "id": "kradan_castaway_bar",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "bar",
+      "name": "Castaway Bar",
+      "type": "Beach Bar",
+      "desc": "Robinson Crusoe vibes",
+      "lat": 7.3175,
+      "lng": 99.2572
+    },
+    {
+      "id": "kradan_kalume_bar",
+      "hotel_id": "koh_kradan_kradan_beach",
+      "category": "bar",
+      "name": "Kalume Wine Bar",
+      "type": "Wine Bar",
+      "desc": "Italian wines with ocean views",
+      "lat": 7.3082,
+      "lng": 99.2522
+    },
+    {
+      "id": "lanta_mushroom",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "bar",
+      "name": "Mushroom Bar",
+      "type": "Beach Bar",
+      "desc": "Quirky mushroom-shaped huts",
+      "lat": 7.5795,
+      "lng": 99.0282
+    },
+    {
+      "id": "lanta_same_bar",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "bar",
+      "name": "Same Same Bar",
+      "type": "Beach Bar",
+      "desc": "Fire shows and bucket drinks",
+      "lat": 7.6425,
+      "lng": 99.0328
+    },
+    {
+      "id": "lanta_relax",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "bar",
+      "name": "Relax Bay Bar",
+      "type": "Resort Bar",
+      "desc": "Chill drinks at the resort",
+      "lat": 7.565,
+      "lng": 99.032
+    },
+    {
+      "id": "lanta_ozone",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "bar",
+      "name": "Ozone Bar",
+      "type": "Beach Bar",
+      "desc": "Late night beach parties",
+      "lat": 7.5785,
+      "lng": 99.0278
+    },
+    {
+      "id": "lanta_reggae",
+      "hotel_id": "koh_lanta_relax_bay",
+      "category": "bar",
+      "name": "Reggae House",
+      "type": "Beach Bar",
+      "desc": "Bob Marley vibes on the beach",
+      "lat": 7.5755,
+      "lng": 99.0288
+    },
+    {
+      "id": "bkk2_maggie",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "bar",
+      "name": "Maggie Choo's",
+      "type": "Speakeasy",
+      "desc": "1930s Shanghai glamour underground",
+      "lat": 13.7235,
+      "lng": 100.5148
+    },
+    {
+      "id": "bkk2_ba_hao",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "bar",
+      "name": "Ba Hao",
+      "type": "Chinese Bar",
+      "desc": "Chinese spirits in Chinatown shophouse",
+      "lat": 13.7388,
+      "lng": 100.5095
+    },
+    {
+      "id": "bkk2_arun",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "bar",
+      "name": "Arun Residence Bar",
+      "type": "Rooftop",
+      "desc": "Intimate Wat Arun views",
+      "lat": 13.7448,
+      "lng": 100.4898
+    },
+    {
+      "id": "bkk2_viva",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "bar",
+      "name": "Viva & Aviv",
+      "type": "Wine Bar",
+      "desc": "Natural wines near the river",
+      "lat": 13.7455,
+      "lng": 100.4915
+    },
+    {
+      "id": "bkk2_wallflowers",
+      "hotel_id": "bangkok_casa_vimaya",
+      "category": "bar",
+      "name": "Wallflowers Upstairs",
+      "type": "Cocktail Bar",
+      "desc": "Creative cocktails above a cafe",
+      "lat": 13.739,
+      "lng": 100.5092
     }
   ]
 }
