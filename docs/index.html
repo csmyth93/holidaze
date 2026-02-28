@@ -111,17 +111,36 @@
         .fav-btn.favorited { color: #e74c3c; }
         .attraction-item, .food-item, .dive-item { align-items: flex-start; }
 
-        /* Favorites filter toggle */
-        .fav-filter { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0; margin-bottom: 0.5rem; }
-        .fav-filter-toggle { width: 18px; height: 18px; accent-color: #e74c3c; cursor: pointer; }
-        .fav-filter-label { font-size: 0.85rem; color: #8b7355; cursor: pointer; }
-        .fav-filter-label:hover { color: #e74c3c; }
+        /* Favorites floating button and panel */
+        .fav-map-btn { position: absolute; top: 10px; right: 10px; z-index: 1000; width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #fff 0%, #fffbf5 100%); border: 2px solid #e8d4b8; box-shadow: 0 2px 8px rgba(0,0,0,0.15); cursor: pointer; font-size: 1.3rem; display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
+        .fav-map-btn:hover { transform: scale(1.1); border-color: #e74c3c; }
+        .fav-map-btn.active { background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); border-color: #c0392b; color: white; }
+        .fav-map-btn .fav-count { position: absolute; top: -4px; right: -4px; background: #e74c3c; color: white; font-size: 0.65rem; font-weight: 600; min-width: 18px; height: 18px; border-radius: 9px; display: flex; align-items: center; justify-content: center; }
+        .fav-map-btn.active .fav-count { background: #fff; color: #e74c3c; }
 
-        /* Hide non-favorites when filter active */
-        .favorites-only .stay-card:not(.has-favorites) { display: none; }
-        .favorites-only .attraction-item:not(.favorited),
-        .favorites-only .food-item:not(.favorited),
-        .favorites-only .dive-item:not(.favorited) { display: none; }
+        .fav-panel { position: absolute; top: 60px; right: 10px; z-index: 1000; width: 300px; max-height: calc(100% - 80px); background: linear-gradient(135deg, #fff 0%, #fffbf5 100%); border-radius: 12px; border: 1px solid #e8d4b8; box-shadow: 0 4px 20px rgba(0,0,0,0.15); overflow: hidden; display: none; }
+        .fav-panel.open { display: flex; flex-direction: column; }
+        .fav-panel-header { padding: 0.75rem 1rem; background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color: white; font-weight: 600; font-size: 0.9rem; }
+        .fav-panel-content { flex: 1; overflow-y: auto; padding: 0.5rem; }
+        .fav-panel-empty { padding: 2rem 1rem; text-align: center; color: #8b7355; font-size: 0.85rem; }
+        .fav-panel-category { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: #8b7355; padding: 0.5rem 0.5rem 0.25rem; margin-top: 0.5rem; }
+        .fav-panel-category:first-child { margin-top: 0; }
+        .fav-panel-item { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem; background: #fff; border-radius: 8px; margin-bottom: 0.25rem; cursor: pointer; transition: all 0.2s; border: 1px solid transparent; }
+        .fav-panel-item:hover { border-color: #e8d4b8; background: #fffbf5; }
+        .fav-panel-item .fav-icon { width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 12px; flex-shrink: 0; }
+        .fav-panel-item .fav-icon.attractions { background: linear-gradient(135deg, #26a69a 0%, #00897b 100%); }
+        .fav-panel-item .fav-icon.dinner { background: linear-gradient(135deg, #e07b39 0%, #d35400 100%); }
+        .fav-panel-item .fav-icon.lunch { background: linear-gradient(135deg, #2d9a4a 0%, #1e8449 100%); }
+        .fav-panel-item .fav-icon.bars { background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); }
+        .fav-panel-item .fav-icon.diving { background: linear-gradient(135deg, #0891b2 0%, #0077b6 100%); }
+        .fav-panel-item .fav-name { flex: 1; font-size: 0.8rem; color: #4a3728; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .fav-panel-item .fav-location { font-size: 0.65rem; color: #8b7355; white-space: nowrap; }
+        .fav-panel-item .fav-remove { color: #ccc; font-size: 0.9rem; padding: 0.2rem; cursor: pointer; transition: color 0.2s; }
+        .fav-panel-item .fav-remove:hover { color: #e74c3c; }
+
+        @media (max-width: 768px) {
+            .fav-panel { width: calc(100% - 20px); max-height: 50%; }
+        }
 
         .transfer-card { background: linear-gradient(135deg, #ffffff 0%, #fffbf5 100%); border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 0.5rem; font-size: 0.85rem; display: flex; align-items: center; gap: 0.75rem; border: 1px solid #e8d4b8; }
         .transfer-icon { font-size: 1.2rem; }
@@ -207,10 +226,6 @@
                 <span class="user-greeting">Welcome, <strong id="userName"></strong>!</span>
                 <button class="logout-btn" id="logoutBtn">Sign out</button>
             </div>
-            <div class="fav-filter">
-                <input type="checkbox" id="favFilter" class="fav-filter-toggle">
-                <label for="favFilter" class="fav-filter-label">Show favorites only</label>
-            </div>
             <h1>Thailand 2026</h1>
             <p class="subtitle">Andaman Coast Island Hopping<br>March 14 - 28</p>
             <h3 class="section-title">Stays</h3>
@@ -225,6 +240,15 @@
         </aside>
         <div class="map-container">
             <div id="map"></div>
+            <button class="fav-map-btn" id="favMapBtn" title="My Favorites">
+                <span class="fav-count" id="favCount" style="display:none">0</span>
+            </button>
+            <div class="fav-panel" id="favPanel">
+                <div class="fav-panel-header">My Favorites</div>
+                <div class="fav-panel-content" id="favPanelContent">
+                    <div class="fav-panel-empty">No favorites yet. Click the heart on any item to add it here.</div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -1988,6 +2012,14 @@
                 updateFavoriteUI(id, category);
             });
             updateStayCardFavoriteState();
+            // Update favorites count badge
+            const totalCount = Object.values(favorites).reduce((sum, arr) => sum + arr.length, 0);
+            const favMapBtn = document.getElementById('favMapBtn');
+            if (totalCount > 0) {
+                favMapBtn.innerHTML = '♥<span class="fav-count">' + totalCount + '</span>';
+            } else {
+                favMapBtn.innerHTML = '♡';
+            }
         }
 
         function updateStayCardFavoriteState() {
@@ -2015,9 +2047,9 @@
             mainApp.style.display = 'flex';
             // Load user's favorites from cloud
             loadFavorites(username);
-            // Reset filter state
-            document.getElementById('favFilter').checked = false;
-            document.getElementById('stays-list').classList.remove('favorites-only');
+            // Close favorites panel
+            document.getElementById('favPanel').classList.remove('open');
+            document.getElementById('favMapBtn').classList.remove('active');
             // Trigger map resize and fit to all stay locations
             setTimeout(() => {
                 map.invalidateSize();
@@ -2077,7 +2109,98 @@
         });
 
         // ========== FAVORITES EVENT HANDLERS ==========
-        // Delegate click handler for favorite buttons
+        const favMapBtn = document.getElementById('favMapBtn');
+        const favPanel = document.getElementById('favPanel');
+        const favPanelContent = document.getElementById('favPanelContent');
+        const favCount = document.getElementById('favCount');
+
+        const categoryIcons = { attractions: '📍', dinner: '🍽️', lunch: '🥗', bars: '🍸', diving: '🤿' };
+        const categoryLabels = { attractions: 'Things to Do', dinner: 'Dinner', lunch: 'Casual Eats', bars: 'Bars', diving: 'Diving' };
+
+        function renderFavoritesPanel() {
+            const allItems = [];
+            // Collect all favorited items with their details
+            Object.entries(favorites).forEach(([category, ids]) => {
+                ids.forEach(id => {
+                    // Find the item in stays data
+                    for (const stay of stays) {
+                        const categoryKey = category === 'attractions' ? 'attractions' : category;
+                        const items = stay[categoryKey] || [];
+                        const item = items.find(i => i.id === id);
+                        if (item) {
+                            allItems.push({ ...item, category, location: stay.location, stay });
+                            break;
+                        }
+                    }
+                });
+            });
+
+            // Update count badge
+            const totalCount = allItems.length;
+            if (totalCount > 0) {
+                favCount.textContent = totalCount;
+                favCount.style.display = 'flex';
+                favMapBtn.innerHTML = '♥<span class="fav-count" id="favCount">' + totalCount + '</span>';
+            } else {
+                favMapBtn.innerHTML = '♡';
+            }
+
+            // Render panel content
+            if (allItems.length === 0) {
+                favPanelContent.innerHTML = '<div class="fav-panel-empty">No favorites yet.<br>Click the heart on any item to add it here.</div>';
+                return;
+            }
+
+            // Group by category
+            const grouped = {};
+            allItems.forEach(item => {
+                if (!grouped[item.category]) grouped[item.category] = [];
+                grouped[item.category].push(item);
+            });
+
+            let html = '';
+            Object.entries(grouped).forEach(([category, items]) => {
+                html += `<div class="fav-panel-category">${categoryLabels[category] || category}</div>`;
+                items.forEach(item => {
+                    const loc = locations[item.location];
+                    html += `
+                        <div class="fav-panel-item" data-id="${item.id}" data-category="${category}" data-lat="${item.lat}" data-lng="${item.lng}">
+                            <div class="fav-icon ${category}">${categoryIcons[category]}</div>
+                            <div class="fav-name">${item.name}</div>
+                            <div class="fav-location">${loc?.name || ''}</div>
+                            <div class="fav-remove" data-id="${item.id}" data-category="${category}">×</div>
+                        </div>
+                    `;
+                });
+            });
+            favPanelContent.innerHTML = html;
+        }
+
+        // Toggle favorites panel
+        favMapBtn.addEventListener('click', () => {
+            const isOpen = favPanel.classList.toggle('open');
+            favMapBtn.classList.toggle('active', isOpen);
+            if (isOpen) renderFavoritesPanel();
+        });
+
+        // Click on favorite item to navigate
+        favPanelContent.addEventListener('click', (e) => {
+            const removeBtn = e.target.closest('.fav-remove');
+            if (removeBtn) {
+                e.stopPropagation();
+                toggleFavorite(removeBtn.dataset.id, removeBtn.dataset.category);
+                renderFavoritesPanel();
+                return;
+            }
+            const item = e.target.closest('.fav-panel-item');
+            if (item && item.dataset.lat && item.dataset.lng) {
+                map.setView([parseFloat(item.dataset.lat), parseFloat(item.dataset.lng)], 15);
+                favPanel.classList.remove('open');
+                favMapBtn.classList.remove('active');
+            }
+        });
+
+        // Delegate click handler for favorite buttons in sidebar
         document.getElementById('stays-list').addEventListener('click', (e) => {
             const favBtn = e.target.closest('.fav-btn');
             if (favBtn) {
@@ -2086,12 +2209,8 @@
                 const id = favBtn.dataset.id;
                 const category = favBtn.dataset.category;
                 toggleFavorite(id, category);
+                renderFavoritesPanel();
             }
-        });
-
-        // Favorites filter toggle
-        document.getElementById('favFilter').addEventListener('change', (e) => {
-            document.getElementById('stays-list').classList.toggle('favorites-only', e.target.checked);
         });
 
         // ========== MOBILE SIDEBAR DRAG RESIZE ==========
